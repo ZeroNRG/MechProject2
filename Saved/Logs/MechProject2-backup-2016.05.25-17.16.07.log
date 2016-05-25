@@ -1,0 +1,1160 @@
+﻿Log file open, 05/16/16 18:02:08
+LogInit:Display: Running engine for game: MechProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(191089080) SRandInit(191089083).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads.
+LogStats: Stats thread started at 0.116321
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/Programs/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.16-22.02.08:406][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.16-22.02.08:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.16-22.02.08:423][  0]LogInit: Computer: Z600-PC
+[2016.05.16-22.02.08:423][  0]LogInit: User: Z600
+[2016.05.16-22.02.08:423][  0]LogInit: CPU Page size=65536, Cores=8
+[2016.05.16-22.02.08:423][  0]LogInit: High frequency timer resolution =2.597705 MHz
+[2016.05.16-22.02.08:424][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.05.16-22.02.08:424][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.16-22.02.08:424][  0]LogMemory: Process Physical Memory: 315.95 MB used, 315.95 MB peak
+[2016.05.16-22.02.08:424][  0]LogMemory: Process Virtual Memory: 320.86 MB used, 320.86 MB peak
+[2016.05.16-22.02.08:424][  0]LogMemory: Physical Memory: 5303.53 MB used, 12271.22 MB total
+[2016.05.16-22.02.08:424][  0]LogMemory: Virtual Memory: 623.86 MB used, 8388608.00 MB total
+[2016.05.16-22.02.08:486][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.16-22.02.09:241][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.16-22.02.09:278][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2016.05.16-22.02.09:278][  0]LogD3D11RHI:       1992MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.05.16-22.02.09:278][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.16-22.02.09:286][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.16-22.02.09:291][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2016.05.16-22.02.09:291][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.16-22.02.09:291][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.16-22.02.09:291][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.16-22.02.09:305][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.16-22.02.09:322][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../UnrealProjects/MechProject2/Intermediate/Shaders/WorkingDirectory/5704/).
+[2016.05.16-22.02.09:322][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Z600/AppData/Local/Temp/UnrealShaderWorkingDir/16F7AE5142589DD6CF9C63A49116FF48/'.
+[2016.05.16-22.02.09:322][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.16-22.02.10:617][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.16-22.02.10:626][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.16-22.02.10:634][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.16-22.02.10:641][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.16-22.02.10:648][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.16-22.02.10:653][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.16-22.02.10:657][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.16-22.02.10:662][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.16-22.02.10:667][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.16-22.02.10:671][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.16-22.02.10:676][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.16-22.02.10:686][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.16-22.02.10:686][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.16-22.02.10:688][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.16-22.02.10:707][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.16-22.02.10:712][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.16-22.02.10:716][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.16-22.02.10:721][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.16-22.02.10:726][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.16-22.02.10:726][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.16-22.02.10:827][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.16-22.02.10:902][  0]LogDerivedDataCache: Loaded boot cache 0.08s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.16-22.02.10:902][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.16-22.02.10:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/MechProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.16-22.02.10:903][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.16-22.02.10:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/MechProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.16-22.02.10:903][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.16-22.02.10:925][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.16-22.02.10:937][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Z600/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.16-22.02.11:166][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.16-22.02.11:167][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.16-22.02.11:200][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.16-22.02.11:383][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.16-22.02.11:383][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.16-22.02.11:383][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.16-22.02.11:699][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.16-22.02.11:699][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.16-22.02.11:699][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.16-22.02.11:706][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.16-22.02.11:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.16-22.02.11:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.16-22.02.11:975][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.16-22.02.11:975][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.16-22.02.11:975][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.16-22.02.11:975][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.16-22.02.11:976][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.16-22.02.11:976][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.16-22.02.12:734][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.16-22.02.12:860][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2016.05.16-22.02.13:449][  0]SourceControl: Info Source control is disabled
+[2016.05.16-22.02.13:450][  0]SourceControl: Info Source control is disabled
+[2016.05.16-22.02.13:468][  0]SourceControl: Info Source control is disabled
+[2016.05.16-22.02.13:483][  0]SourceControl: Info Source control is disabled
+[2016.05.16-22.02.13:643][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.16-22.02.13:909][  0]LogEngine: Initializing Engine...
+[2016.05.16-22.02.14:121][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.16-22.02.14:130][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-22.02.14:175][  0]LogInit: FAudioDevice initialized.
+[2016.05.16-22.02.14:209][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.16-22.02.14:217][  0]LogInit: Texture streaming: Enabled
+[2016.05.16-22.02.14:252][  0]LogInit: Transaction tracking system initialized
+[2016.05.16-22.02.14:284][  0]BlueprintLog: New page: Editor Load
+[2016.05.16-22.02.14:420][  0]LocalizationService: Info Localization service is disabled
+[2016.05.16-22.02.14:524][  0]LogConsoleResponse:Display: 
+[2016.05.16-22.02.14:652][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.16-22.02.14:652][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.16-22.02.14:652][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.16-22.02.14:723][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Content/' took 0.02s
+[2016.05.16-22.02.14:723][  0]SourceControl: Info Source control is disabled
+[2016.05.16-22.02.14:723][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/MechProject2/Content/ThirdPersonBP/Maps/DEMOmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.16-22.02.14:724][  0]LightingResults: New page: Lighting Build
+[2016.05.16-22.02.14:728][  0]MapCheck: New page: Map Check
+[2016.05.16-22.02.14:728][  0]LightingResults: New page: Lighting Build
+[2016.05.16-22.02.23:514][  0]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-22.02.23:518][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.16-22.02.23:538][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2016.05.16-22.02.23:605][  0]MapCheck:Warning: Warning M_Basic_Floor Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.05.16-22.02.23:605][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.16-22.02.23:794][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.16-22.02.23:794][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.16-22.02.23:887][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 92.813ms to complete.
+[2016.05.16-22.02.23:936][  0]LogFileHelpers: Loading map 'DEMOmap' took 9.212
+[2016.05.16-22.02.24:208][  0]LogCollectionManager: Loaded 0 collections in 0.002142 seconds
+[2016.05.16-22.02.24:253][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Saved/Collections/' took 0.01s
+[2016.05.16-22.02.24:253][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Content/Developers/Z600/Collections/' took 0.01s
+[2016.05.16-22.02.24:253][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Content/Collections/' took 0.01s
+[2016.05.16-22.02.24:253][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.16-22.02.24:264][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1980 classes and 346 folders.
+[2016.05.16-22.02.24:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.16-22.02.24:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.16-22.02.24:271][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.05.16-22.02.24:278][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.16-22.02.24:380][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.16-22.02.26:222][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.16-22.02.26:229][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.16-22.02.26:391][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.16-22.02.26:403][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.16-22.02.26:431][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.05.16-22.02.26:431][  0]LogLoad: Full Startup: 19.21 seconds (BP compile: 1.27 seconds)
+[2016.05.16-22.02.26:431][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.16-22.02.26:441][  0]LogOcInput: OculusInput pre-init called
+[2016.05.16-22.02.26:662][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.16-22.02.26:950][  0]LogRenderer: Reallocating scene render targets to support 1204x576 (Frame:2).
+[2016.05.16-22.02.27:227][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.05.16-22.02.28:299][ 41]LogAssetRegistry: Asset discovery search completed in 15.4596 seconds
+[2016.05.16-22.02.28:299][ 41]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2016.05.16-22.02.28:812][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-22.02.28:936][ 63]PIE: New page: PIE session: DEMOmap (May 16, 2016, 1:02:28 PM)
+[2016.05.16-22.02.28:936][ 63]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-22.02.28:977][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040306s)
+[2016.05.16-22.02.28:978][ 63]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-22.02.28:978][ 63]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2016.05.16-22.02.28:978][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.041522s)
+[2016.05.16-22.02.28:979][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-22.02.29:138][ 63]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-22.02.29:149][ 63]LogInit: FAudioDevice initialized.
+[2016.05.16-22.02.54:499][ 63]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-22.02.54:573][ 63]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-18.02.54
+[2016.05.16-22.02.54:576][ 63]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-22.02.54:577][ 63]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-22.02.54:578][ 63]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-22.02.54:579][ 63]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-22.02.54:580][ 63]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-22.02.54:582][ 63]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-22.02.54:583][ 63]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-22.02.54:584][ 63]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-22.02.54:585][ 63]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-22.02.54:585][ 63]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-22.02.54:586][ 63]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-22.02.54:587][ 63]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-22.02.54:588][ 63]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.02.54:589][ 63]LogWorld: Bringing up level for play took: 0.086091
+[2016.05.16-22.02.54:591][ 63]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-22.02.54:595][ 63]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.16-22.02.54:600][ 63]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.02.54:625][ 63]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 26.315
+[2016.05.16-22.02.54:741][ 64]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:72).
+[2016.05.16-22.02.54:958][ 65]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 429/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-22.03.38:182][379]LogBlueprintUserMessages: [MechChara_C_276] RightOn
+[2016.05.16-22.03.38:200][380]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.03.38:433][393]LogScript:Warning: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap:PersistentLevel.MechChara_C_276
+	Function /Game/MechaInsurgent/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:111D
+[2016.05.16-22.03.38:434][393]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_ComponentBoundEvent_OtherActor5 from function: 'ExecuteUbergraph_MechChara' from node: Launch Character in graph: EventGraph in object: MechChara
+[2016.05.16-22.03.38:434][393]LogBlueprintUserMessages: [MechChara_C_276] Hello
+[2016.05.16-22.03.38:672][406]LogBlueprintUserMessages: [MechChara_C_276] RightOff
+[2016.05.16-22.03.39:427][447]LogBlueprintUserMessages: [MechChara_C_276] 1
+[2016.05.16-22.03.44:967][745]LogBlueprintUserMessages: [MechChara_C_276] leftOn
+[2016.05.16-22.03.44:985][746]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.03.45:176][756]LogBlueprintUserMessages: [MechChara_C_276] LeftOff
+[2016.05.16-22.04.22:841][283]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.04.22:842][283]LogBlueprintUserMessages: [MechChara_C_276] RightOn
+[2016.05.16-22.04.22:881][285]LogBlueprintUserMessages: [MechChara_C_276] RightOff
+[2016.05.16-22.04.23:243][302]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.04.23:243][302]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.04.23:243][302]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.04.23:243][302]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.04.24:504][367]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.04.24:504][367]LogBlueprintUserMessages: [MechChara_C_276] RightOn
+[2016.05.16-22.04.24:618][373]LogBlueprintUserMessages: [MechChara_C_276] Hello
+[2016.05.16-22.04.24:639][374]LogBlueprintUserMessages: [MechChara_C_276] leftOn
+[2016.05.16-22.04.24:716][378]LogBlueprintUserMessages: [MechChara_C_276] RightOff
+[2016.05.16-22.04.25:064][396]LogBlueprintUserMessages: [MechChara_C_276] LeftOff
+[2016.05.16-22.04.25:613][424]LogBlueprintUserMessages: [MechChara_C_276] 1
+[2016.05.16-22.04.27:724][532]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.04.27:724][532]LogBlueprintUserMessages: [MechChara_C_276] leftOn
+[2016.05.16-22.04.27:800][536]LogBlueprintUserMessages: [MechChara_C_276] LeftOff
+[2016.05.16-22.05.41:204][323]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.41:204][323]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-22.05.41:204][323]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.41:246][325]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-22.05.41:267][326]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-22.05.41:267][326]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.41:267][326]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-22.05.41:288][327]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.41:419][333]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.05.41:419][333]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.41:419][333]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.05.41:419][333]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.42:122][367]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.42:122][367]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.05.42:165][369]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.05.42:186][370]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-22.06.09:992][866]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.06.09:992][866]LogBlueprintUserMessages: [MechChara_C_276] RightOn
+[2016.05.16-22.06.10:304][883]LogBlueprintUserMessages: [MechChara_C_276] Hello
+[2016.05.16-22.06.10:889][914]LogBlueprintUserMessages: [MechChara_C_276] RightOff
+[2016.05.16-22.06.11:304][936]LogBlueprintUserMessages: [MechChara_C_276] 1
+[2016.05.16-22.06.12:964][ 24]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.06.12:964][ 24]LogBlueprintUserMessages: [MechChara_C_276] leftOn
+[2016.05.16-22.06.13:080][ 30]LogBlueprintUserMessages: [MechChara_C_276] Hello
+[2016.05.16-22.06.14:074][ 83]LogBlueprintUserMessages: [MechChara_C_276] 1
+[2016.05.16-22.06.14:194][ 90]LogBlueprintUserMessages: [MechChara_C_276] LeftOff
+[2016.05.16-22.06.34:776][205]LogBlueprintUserMessages: [MechChara_C_276] leftOn
+[2016.05.16-22.06.34:803][206]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.16-22.06.34:961][212]LogBlueprintUserMessages: [MechChara_C_276] LeftOff
+[2016.05.16-22.06.47:214][822]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.03.13:034][833]MapCheck: New page: Map Check
+[2016.05.16-23.03.13:104][833]Cmd: MAP REBUILD ALLVISIBLE
+[2016.05.16-23.03.13:111][833]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.05.16-23.03.13:588][833]LightingResults: New page: Lighting Build - May 16, 2016, 2:03:13 PM
+[2016.05.16-23.03.14:006][833]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.05.16-23.03.14:471][833]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.05.16-23.03.14:866][833]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.05.16-23.03.16:442][833]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.05.16-23.03.16:442][833]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5704
+[2016.05.16-23.03.20:868][833]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.05.16-23.03.20:876][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.05.16-23.03.20:876][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.05.16-23.03.20:876][833]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.05.16-23.03.20:876][833]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.05.16-23.03.20:876][833]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.05.16-23.03.21:969][833]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.05.16-23.03.21:969][833]MapCheck: New page: DEMOmap - May 16, 2016, 2:03:21 PM
+[2016.05.16-23.03.22:277][833]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 307.827ms to complete.
+[2016.05.16-23.03.22:297][833]LogEditorBuildUtils: Build time 0:00:09
+[2016.05.16-23.03.22:485][834]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.03.26:038][840]LogSavePackage: Save=351.39ms
+[2016.05.16-23.03.26:039][840]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/DEMOmap_Auto17D86904C49C632BDA0B355A3AEBC3000.tmp' to '../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/ThirdPersonBP/Maps/DEMOmap_Auto1.umap'
+[2016.05.16-23.03.26:042][840]LogSavePackage: Total save time: 460.46ms
+[2016.05.16-23.03.26:042][840]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/ThirdPersonBP/Maps/DEMOmap_Auto1.umap
+[2016.05.16-23.03.26:077][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/DEMOmap' took 0.516
+[2016.05.16-23.03.26:077][840]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.516
+[2016.05.16-23.03.26:441][842]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.03.26:774][843]Job is a success!
+[2016.05.16-23.03.27:581][844]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.05.16-23.03.27:581][844]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.05.16-23.03.27:581][844]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.05.16-23.03.27:581][844]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.05.16-23.03.27:581][844]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.05.16-23.03.27:581][844]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.05.16-23.03.27:673][844]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.05.16-23.03.27:673][844]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.05.16-23.03.37:398][844]Lightmass on Z600-PC: 2.85 sec total, 228 ms importing, 6 ms setup, 822 ms photons, 1.76 sec processing, 0 ms extra exporting [14/14 mappings]. Threads: 12.1 sec total, 1.81 sec processing.
+[2016.05.16-23.03.37:527][844]LogStaticLightingSystem: Illumination: 23.5 sec (224 ms encoding lightmaps, 90 ms encoding shadowmaps)
+[2016.05.16-23.03.37:527][844]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.05.16-23.03.37:527][844]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.05.16-23.03.37:877][845]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.05.16-23.03.37:877][845]MapCheck: New page: DEMOmap - May 16, 2016, 2:03:37 PM
+[2016.05.16-23.03.37:984][845]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.886ms to complete.
+[2016.05.16-23.03.38:336][847]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.11.52:156][326]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.12.12:092][419]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.12.15:093][427]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.13.37:486][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.13.38:076][674]LogSavePackage: Save=477.78ms
+[2016.05.16-23.13.38:077][674]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/DEMOmap_Auto25EF97E3A4FCC6A829B4AB7964F2DF27D.tmp' to '../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/ThirdPersonBP/Maps/DEMOmap_Auto2.umap'
+[2016.05.16-23.13.38:080][674]LogSavePackage: Total save time: 561.00ms
+[2016.05.16-23.13.38:080][674]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/ThirdPersonBP/Maps/DEMOmap_Auto2.umap
+[2016.05.16-23.13.38:083][674]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/DEMOmap' took 0.597
+[2016.05.16-23.13.38:083][674]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.597
+[2016.05.16-23.13.38:464][677]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.06:238][946]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.09:061][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.15.09:061][119]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:15:09 PM)
+[2016.05.16-23.15.09:061][119]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.15.09:105][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043858s)
+[2016.05.16-23.15.09:106][119]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.15.09:106][119]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2016.05.16-23.15.09:106][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.045189s)
+[2016.05.16-23.15.09:106][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.15.09:131][119]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.15.09:141][119]LogInit: FAudioDevice initialized.
+[2016.05.16-23.15.09:196][119]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.15.09:235][119]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.15.09
+[2016.05.16-23.15.09:237][119]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.15.09:239][119]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.15.09:240][119]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.15.09:241][119]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.15.09:242][119]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.15.09:243][119]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.15.09:244][119]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.15.09:246][119]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.15.09:247][119]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.15.09:247][119]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.15.09:248][119]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.15.09:249][119]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.15.09:250][119]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.15.09:251][119]LogWorld: Bringing up level for play took: 0.052324
+[2016.05.16-23.15.09:252][119]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.15.09:257][119]LogBlueprintUserMessages: [MechChara_C_553] wallruncollide
+[2016.05.16-23.15.09:282][119]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 0.891
+[2016.05.16-23.15.09:412][121]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.13:041][311]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.14:361][376]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.17:544][539]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.22:917][796]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.23:639][829]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.26:716][978]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.31:061][201]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.15.38:612][591]LogBlueprintUserMessages: [MechChara_C_553] wallruncollide
+[2016.05.16-23.15.38:612][591]LogBlueprintUserMessages: [MechChara_C_553] RightOn
+[2016.05.16-23.15.38:668][594]LogBlueprintUserMessages: [MechChara_C_553] RightOff
+[2016.05.16-23.15.39:898][657]LogBlueprintUserMessages: [MechChara_C_553] wallruncollide
+[2016.05.16-23.15.39:899][657]LogBlueprintUserMessages: [MechChara_C_553] leftOn
+[2016.05.16-23.15.40:019][663]LogBlueprintUserMessages: [MechChara_C_553] LeftOff
+[2016.05.16-23.15.40:431][682]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.15.52:551][293]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.15.52:570][294]LogBlueprintUserMessages: [MechChara_C_553] wallruncollide
+[2016.05.16-23.15.52:570][294]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.16.05:901][966]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.16.08:361][115]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.16.09:225][116]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 108 classes and 0 folders.
+[2016.05.16-23.16.10:476][116]LogBlueprintUserMessages: [MechChara_C_554] wallruncollide
+[2016.05.16-23.16.12:347][119]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.16.17:683][357]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 447/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.16.19:553][417]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.16.21:533][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.16.22:204][457]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.16-23.17.08:991][833]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.17.09:314][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.17.11:061][833]BlueprintEditorCompileResults: Info [4503.76] Compile of FirstPersonAnim successful! [in 2,070 ms]
+[2016.05.16-23.17.18:982][309]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.17.19:946][309]BlueprintEditorCompileResults: Info [4512.64] Compile of FirstPersonAnim successful! [in 963 ms]
+[2016.05.16-23.17.31:537][ 75]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.17.32:440][ 75]BlueprintEditorCompileResults: Info [4525.14] Compile of FirstPersonAnim successful! [in 902 ms]
+[2016.05.16-23.17.47:479][134]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.17.47:870][134]BlueprintEditorCompileResults: Info [4540.57] Compile of FirstPersonAnim successful! [in 390 ms]
+[2016.05.16-23.17.54:564][547]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.17.54:893][547]BlueprintEditorCompileResults: Info [4547.59] Compile of FirstPersonAnim successful! [in 329 ms]
+[2016.05.16-23.18.02:084][  0]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.18.02:843][  0]BlueprintEditorCompileResults: Info [4555.54] Compile of FirstPersonAnim successful! [in 759 ms]
+[2016.05.16-23.18.08:857][386]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.18.09:556][386]BlueprintEditorCompileResults: Info [4562.25] Compile of FirstPersonAnim successful! [in 698 ms]
+[2016.05.16-23.18.20:986][986]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2016.05.16-23.18.32:119][  4]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.16-23.18.43:099][734]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.16-23.19.11:945][252]LogEditorTransaction: Undo Re-parent Socket
+[2016.05.16-23.20.10:223][985]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.10:789][985]BlueprintEditorCompileResults: Info [4683.48] Compile of FirstPersonAnim successful! [in 566 ms]
+[2016.05.16-23.20.19:634][564]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.20:255][564]BlueprintEditorCompileResults: Info [4692.95] Compile of FirstPersonAnim successful! [in 620 ms]
+[2016.05.16-23.20.23:840][796]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.24:483][796]BlueprintEditorCompileResults: Info [4697.18] Compile of FirstPersonAnim successful! [in 643 ms]
+[2016.05.16-23.20.27:809][  7]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.28:521][  7]BlueprintEditorCompileResults: Info [4701.22] Compile of FirstPersonAnim successful! [in 711 ms]
+[2016.05.16-23.20.34:275][367]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.34:963][367]BlueprintEditorCompileResults: Info [4707.66] Compile of FirstPersonAnim successful! [in 688 ms]
+[2016.05.16-23.20.38:673][581]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.39:364][581]BlueprintEditorCompileResults: Info [4712.06] Compile of FirstPersonAnim successful! [in 691 ms]
+[2016.05.16-23.20.49:519][294]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.50:009][294]BlueprintEditorCompileResults: Info [4722.70] Compile of FirstPersonAnim successful! [in 490 ms]
+[2016.05.16-23.20.55:517][606]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.20.56:137][606]BlueprintEditorCompileResults: Info [4728.83] Compile of FirstPersonAnim successful! [in 619 ms]
+[2016.05.16-23.20.57:622][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.20.57:622][678]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:20:57 PM)
+[2016.05.16-23.20.57:622][678]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.20.57:649][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026941s)
+[2016.05.16-23.20.57:650][678]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.20.57:650][678]LogPlayLevel: PIE: World Init took: (0.001181s)
+[2016.05.16-23.20.57:651][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.028386s)
+[2016.05.16-23.20.57:703][678]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.20.57:715][678]LogInit: FAudioDevice initialized.
+[2016.05.16-23.20.57:773][678]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.20.57:813][678]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.20.57
+[2016.05.16-23.20.57:815][678]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.20.57:816][678]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.20.57:817][678]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.20.57:818][678]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.20.57:819][678]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.20.57:820][678]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.20.57:822][678]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.20.57:823][678]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.20.57:824][678]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.20.57:824][678]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.20.57:825][678]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.20.57:828][678]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.20.57:829][678]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.20.57:830][678]LogWorld: Bringing up level for play took: 0.052866
+[2016.05.16-23.20.57:831][678]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.20.57:836][678]LogBlueprintUserMessages: [MechChara_C_578] wallruncollide
+[2016.05.16-23.20.57:860][678]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.537
+[2016.05.16-23.20.57:918][679]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.21.19:799][ 95]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.20:406][ 95]BlueprintEditorCompileResults: Info [4753.10] Compile of FirstPersonAnim successful! [in 607 ms]
+[2016.05.16-23.21.23:488][266]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.24:082][266]BlueprintEditorCompileResults: Info [4756.77] Compile of FirstPersonAnim successful! [in 593 ms]
+[2016.05.16-23.21.27:394][446]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.28:216][446]BlueprintEditorCompileResults: Info [4760.91] Compile of FirstPersonAnim successful! [in 822 ms]
+[2016.05.16-23.21.31:576][640]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.32:164][640]BlueprintEditorCompileResults: Info [4764.86] Compile of FirstPersonAnim successful! [in 587 ms]
+[2016.05.16-23.21.35:076][802]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.35:748][802]BlueprintEditorCompileResults: Info [4768.44] Compile of FirstPersonAnim successful! [in 671 ms]
+[2016.05.16-23.21.39:307][  1]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.39:971][  1]BlueprintEditorCompileResults: Info [4772.66] Compile of FirstPersonAnim successful! [in 663 ms]
+[2016.05.16-23.21.43:308][203]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.43:957][203]BlueprintEditorCompileResults: Info [4776.65] Compile of FirstPersonAnim successful! [in 648 ms]
+[2016.05.16-23.21.46:742][363]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.47:286][363]BlueprintEditorCompileResults: Info [4779.98] Compile of FirstPersonAnim successful! [in 543 ms]
+[2016.05.16-23.21.53:906][811]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.21.54:464][811]BlueprintEditorCompileResults: Info [4787.16] Compile of FirstPersonAnim successful! [in 558 ms]
+[2016.05.16-23.22.05:478][491]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.05:992][491]BlueprintEditorCompileResults: Info [4798.68] Compile of FirstPersonAnim successful! [in 513 ms]
+[2016.05.16-23.22.14:377][ 55]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.14:902][ 55]BlueprintEditorCompileResults: Info [4807.59] Compile of FirstPersonAnim successful! [in 525 ms]
+[2016.05.16-23.22.22:237][551]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.22:749][551]BlueprintEditorCompileResults: Info [4815.44] Compile of FirstPersonAnim successful! [in 512 ms]
+[2016.05.16-23.22.25:855][735]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.26:467][735]BlueprintEditorCompileResults: Info [4819.16] Compile of FirstPersonAnim successful! [in 611 ms]
+[2016.05.16-23.22.30:306][959]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.31:183][959]BlueprintEditorCompileResults: Info [4823.87] Compile of FirstPersonAnim successful! [in 876 ms]
+[2016.05.16-23.22.33:918][104]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.34:688][104]BlueprintEditorCompileResults: Info [4827.38] Compile of FirstPersonAnim successful! [in 770 ms]
+[2016.05.16-23.22.37:600][268]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.22.38:197][268]BlueprintEditorCompileResults: Info [4830.89] Compile of FirstPersonAnim successful! [in 596 ms]
+[2016.05.16-23.23.13:269][886]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.23.13:790][886]BlueprintEditorCompileResults: Info [4866.48] Compile of FirstPersonAnim successful! [in 520 ms]
+[2016.05.16-23.23.15:086][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.23.15:086][948]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:23:15 PM)
+[2016.05.16-23.23.15:087][948]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.23.15:114][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027198s)
+[2016.05.16-23.23.15:115][948]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.23.15:115][948]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2016.05.16-23.23.15:115][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.028427s)
+[2016.05.16-23.23.15:158][948]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.23.15:169][948]LogInit: FAudioDevice initialized.
+[2016.05.16-23.23.15:227][948]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.23.15:269][948]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.23.15
+[2016.05.16-23.23.15:272][948]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.23.15:274][948]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.23.15:276][948]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.23.15:277][948]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.23.15:279][948]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.23.15:281][948]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.23.15:283][948]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.23.15:285][948]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.23.15:287][948]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.23.15:287][948]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.23.15:288][948]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.23.15:290][948]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.23.15:291][948]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.23.15:292][948]LogWorld: Bringing up level for play took: 0.060916
+[2016.05.16-23.23.15:293][948]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.23.15:299][948]LogBlueprintUserMessages: [MechChara_C_579] wallruncollide
+[2016.05.16-23.23.15:325][948]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 0.925
+[2016.05.16-23.23.15:392][949]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.24.18:450][ 91]LogSavePackage: Save=48.14ms
+[2016.05.16-23.24.18:450][ 91]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/HyenaFirstPerson_Skeleton58CAC9BF4A19BE1905E3A488A16D295A.tmp' to '../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/HyenaFirstPerson_Skeleton.uasset'
+[2016.05.16-23.24.18:458][ 91]LogSavePackage: Total save time: 68.80ms
+[2016.05.16-23.24.18:458][ 91]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/HyenaFirstPerson_Skeleton.uasset
+[2016.05.16-23.24.20:995][325]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.24.21:074][331]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.24.21:725][362]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.16-23.24.21:735][362]LogPlayLevel: [PlayLevel] Compiling FirstPersonAnim before play...
+[2016.05.16-23.24.22:038][362]LogPlayLevel: PlayLevel: Blueprint regeneration took 312 ms (1 blueprints)
+[2016.05.16-23.24.22:097][362]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:24:22 PM)
+[2016.05.16-23.24.22:097][362]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.24.22:125][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028104s)
+[2016.05.16-23.24.22:126][362]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.24.22:126][362]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2016.05.16-23.24.22:127][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.029572s)
+[2016.05.16-23.24.22:172][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.24.22:182][362]LogInit: FAudioDevice initialized.
+[2016.05.16-23.24.22:236][362]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.24.22:279][362]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.24.22
+[2016.05.16-23.24.22:281][362]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.24.22:282][362]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.24.22:283][362]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.24.22:284][362]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.24.22:285][362]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.24.22:287][362]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.24.22:288][362]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.24.22:289][362]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.24.22:290][362]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.24.22:290][362]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.24.22:291][362]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.24.22:292][362]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.24.22:293][362]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.24.22:294][362]LogWorld: Bringing up level for play took: 0.054945
+[2016.05.16-23.24.22:295][362]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.24.22:300][362]LogBlueprintUserMessages: [MechChara_C_580] wallruncollide
+[2016.05.16-23.24.22:327][362]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.073
+[2016.05.16-23.24.22:417][364]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 468/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.24.33:164][909]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.24.34:827][  1]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 410/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.24.52:504][899]LogSavePackage: Save=5.37ms
+[2016.05.16-23.24.52:504][899]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/HyenaFirstPerson_Skeleton580C4FB94F5FBD29EB68F39C92C5B0CE.tmp' to '../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/HyenaFirstPerson_Skeleton.uasset'
+[2016.05.16-23.24.52:510][899]LogSavePackage: Total save time: 19.38ms
+[2016.05.16-23.24.52:510][899]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/HyenaFirstPerson_Skeleton.uasset
+[2016.05.16-23.24.59:897][322]LogEditorTransaction: Undo Reset Location
+[2016.05.16-23.25.00:328][322]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.MechChara_C_554.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:335][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara7.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:343][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara5.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:351][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara6.Arrow) Component already registered.
+[2016.05.16-23.25.00:357][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara6.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:364][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara6.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:373][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara7.Arrow) Component already registered.
+[2016.05.16-23.25.00:380][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara7.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:387][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara8_441.Arrow) Component already registered.
+[2016.05.16-23.25.00:394][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara5.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:401][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara8_441.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:407][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara8_441.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:415][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara_5996.Arrow) Component already registered.
+[2016.05.16-23.25.00:422][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara_5996.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:429][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara_5996.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:437][322]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.MechChara_C_554.Arrow) Component already registered.
+[2016.05.16-23.25.00:446][322]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.MechChara_C_554.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:453][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara5.Arrow) Component already registered.
+[2016.05.16-23.25.00:460][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara2.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:467][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara15.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:474][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara15.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:482][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara16.Arrow) Component already registered.
+[2016.05.16-23.25.00:490][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara16.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:497][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara16.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:505][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara2.Arrow) Component already registered.
+[2016.05.16-23.25.00:522][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara15.Arrow) Component already registered.
+[2016.05.16-23.25.00:529][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara2.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:537][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara3.Arrow) Component already registered.
+[2016.05.16-23.25.00:544][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara3.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:550][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara3.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.00:559][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara4_17492.Arrow) Component already registered.
+[2016.05.16-23.25.00:565][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara4_17492.CharMoveComp) Component already registered.
+[2016.05.16-23.25.00:572][322]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap:PersistentLevel.MechChara4_17492.CharacterMesh0) Component already registered.
+[2016.05.16-23.25.07:337][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.25.14:090][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.16-23.25.22:526][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.16-23.25.29:225][119]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.16-23.25.29:379][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.16-23.25.29:392][119]LogPlayLevel: [PlayLevel] Compiling MechChara before play...
+[2016.05.16-23.25.34:334][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 5108 ms (5 blueprints)
+[2016.05.16-23.25.34:343][119]LogPlayLevel: [PlayLevel] Compiling FirstPersonAnim before play...
+[2016.05.16-23.25.34:669][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 5443 ms (5 blueprints)
+[2016.05.16-23.25.34:669][119]LogPlayLevel: [PlayLevel] Compiling MechGame before play...
+[2016.05.16-23.25.34:988][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 5763 ms (5 blueprints)
+[2016.05.16-23.25.35:003][119]LogPlayLevel: [PlayLevel] Compiling MechSurgAnim before play...
+[2016.05.16-23.25.35:824][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 6598 ms (5 blueprints)
+[2016.05.16-23.25.35:825][119]LogPlayLevel: [PlayLevel] Compiling HyenaHud before play...
+[2016.05.16-23.25.36:163][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 6937 ms (5 blueprints)
+[2016.05.16-23.25.36:398][119]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:25:36 PM)
+[2016.05.16-23.25.36:398][119]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.25.36:428][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029589s)
+[2016.05.16-23.25.36:429][119]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.25.36:429][119]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2016.05.16-23.25.36:429][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.030846s)
+[2016.05.16-23.25.36:475][119]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.25.36:498][119]LogInit: FAudioDevice initialized.
+[2016.05.16-23.25.36:556][119]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.25.36:596][119]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.25.36
+[2016.05.16-23.25.36:599][119]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.25.36:600][119]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.25.36:601][119]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.25.36:602][119]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.25.36:603][119]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.25.36:604][119]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.25.36:605][119]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.25.36:607][119]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.25.36:608][119]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.25.36:608][119]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.25.36:610][119]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.25.36:612][119]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.25.36:614][119]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.25.36:615][119]LogWorld: Bringing up level for play took: 0.056858
+[2016.05.16-23.25.36:617][119]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.25.36:622][119]LogBlueprintUserMessages: [MechChara_C_1495] wallruncollide
+[2016.05.16-23.25.36:645][119]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 8.242
+[2016.05.16-23.25.36:848][121]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 460/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.25.40:900][327]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 427/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.25.43:493][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.25.48:014][733]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.16-23.25.58:686][432]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.25.59:241][432]BlueprintEditorCompileResults: Info [5031.93] Compile of FirstPersonAnim successful! [in 555 ms]
+[2016.05.16-23.26.02:854][646]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.03:614][646]BlueprintEditorCompileResults: Info [5036.30] Compile of FirstPersonAnim successful! [in 760 ms]
+[2016.05.16-23.26.06:167][807]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.26.10:760][992]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.11:471][992]BlueprintEditorCompileResults: Info [5044.16] Compile of FirstPersonAnim successful! [in 710 ms]
+[2016.05.16-23.26.14:853][184]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.15:787][184]BlueprintEditorCompileResults: Info [5048.47] Compile of FirstPersonAnim successful! [in 933 ms]
+[2016.05.16-23.26.18:934][346]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.19:808][346]BlueprintEditorCompileResults: Info [5052.50] Compile of FirstPersonAnim successful! [in 873 ms]
+[2016.05.16-23.26.22:649][498]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.23:477][498]BlueprintEditorCompileResults: Info [5056.16] Compile of FirstPersonAnim successful! [in 828 ms]
+[2016.05.16-23.26.26:596][681]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.27:340][681]BlueprintEditorCompileResults: Info [5060.03] Compile of FirstPersonAnim successful! [in 744 ms]
+[2016.05.16-23.26.33:591][115]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.34:160][115]BlueprintEditorCompileResults: Info [5066.85] Compile of FirstPersonAnim successful! [in 568 ms]
+[2016.05.16-23.26.39:939][552]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.40:490][552]BlueprintEditorCompileResults: Info [5073.18] Compile of FirstPersonAnim successful! [in 550 ms]
+[2016.05.16-23.26.54:507][561]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.26.55:047][561]BlueprintEditorCompileResults: Info [5087.73] Compile of FirstPersonAnim successful! [in 539 ms]
+[2016.05.16-23.27.05:412][329]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.05:969][329]BlueprintEditorCompileResults: Info [5098.66] Compile of FirstPersonAnim successful! [in 557 ms]
+[2016.05.16-23.27.12:489][796]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.13:004][796]BlueprintEditorCompileResults: Info [5105.69] Compile of FirstPersonAnim successful! [in 514 ms]
+[2016.05.16-23.27.18:102][ 32]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.20:003][ 32]BlueprintEditorCompileResults: Info [5112.69] Compile of FirstPersonAnim successful! [in 1,901 ms]
+[2016.05.16-23.27.24:589][272]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.26:171][272]BlueprintEditorCompileResults: Info [5118.86] Compile of FirstPersonAnim successful! [in 1,581 ms]
+[2016.05.16-23.27.29:745][458]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.30:908][458]BlueprintEditorCompileResults: Info [5123.59] Compile of FirstPersonAnim successful! [in 1,162 ms]
+[2016.05.16-23.27.34:381][646]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.35:224][646]BlueprintEditorCompileResults: Info [5127.91] Compile of FirstPersonAnim successful! [in 842 ms]
+[2016.05.16-23.27.38:958][862]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.39:746][862]BlueprintEditorCompileResults: Info [5132.43] Compile of FirstPersonAnim successful! [in 788 ms]
+[2016.05.16-23.27.42:124][990]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.42:743][990]BlueprintEditorCompileResults: Info [5135.43] Compile of FirstPersonAnim successful! [in 618 ms]
+[2016.05.16-23.27.47:300][305]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.47:892][305]BlueprintEditorCompileResults: Info [5140.58] Compile of FirstPersonAnim successful! [in 592 ms]
+[2016.05.16-23.27.51:504][481]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.52:253][481]BlueprintEditorCompileResults: Info [5144.94] Compile of FirstPersonAnim successful! [in 749 ms]
+[2016.05.16-23.27.56:777][737]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.27.58:062][737]BlueprintEditorCompileResults: Info [5150.75] Compile of FirstPersonAnim successful! [in 1,284 ms]
+[2016.05.16-23.28.03:771][114]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.28.04:826][114]BlueprintEditorCompileResults: Info [5157.51] Compile of FirstPersonAnim successful! [in 1,055 ms]
+[2016.05.16-23.28.08:227][302]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.28.08:984][302]BlueprintEditorCompileResults: Info [5161.67] Compile of FirstPersonAnim successful! [in 757 ms]
+[2016.05.16-23.28.13:072][553]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.28.19:675][883]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.28.20:546][883]BlueprintEditorCompileResults: Info [5173.23] Compile of FirstPersonAnim successful! [in 870 ms]
+[2016.05.16-23.28.25:710][239]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.28.26:300][239]BlueprintEditorCompileResults: Info [5178.98] Compile of FirstPersonAnim successful! [in 589 ms]
+[2016.05.16-23.28.53:828][ 95]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.28.54:374][ 95]BlueprintEditorCompileResults: Info [5207.06] Compile of FirstPersonAnim successful! [in 545 ms]
+[2016.05.16-23.28.55:977][200]LogEditorTransaction: Undo Edit Properties
+[2016.05.16-23.29.00:713][468]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.29.03:374][559]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.29.04:107][586]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.29.04:582][602]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.29.06:213][657]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.29.06:591][657]BlueprintEditorCompileResults: Info [5219.27] Compile of FirstPersonAnim successful! [in 377 ms]
+[2016.05.16-23.29.07:308][684]LogEditorTransaction: Undo Set Vector Property
+[2016.05.16-23.29.33:860][439]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.29.34:435][439]BlueprintEditorCompileResults: Info [5247.12] Compile of FirstPersonAnim successful! [in 575 ms]
+[2016.05.16-23.29.43:389][ 17]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.29.44:686][ 17]BlueprintEditorCompileResults: Info [5257.37] Compile of FirstPersonAnim successful! [in 1,296 ms]
+[2016.05.16-23.29.50:341][430]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.29.50:874][430]BlueprintEditorCompileResults: Info [5263.56] Compile of FirstPersonAnim successful! [in 533 ms]
+[2016.05.16-23.29.54:838][686]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.29.55:451][686]BlueprintEditorCompileResults: Info [5268.13] Compile of FirstPersonAnim successful! [in 612 ms]
+[2016.05.16-23.30.02:211][187]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.02:716][187]BlueprintEditorCompileResults: Info [5275.40] Compile of FirstPersonAnim successful! [in 504 ms]
+[2016.05.16-23.30.07:062][495]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.07:573][495]BlueprintEditorCompileResults: Info [5280.26] Compile of FirstPersonAnim successful! [in 511 ms]
+[2016.05.16-23.30.11:976][766]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.12:802][766]BlueprintEditorCompileResults: Info [5285.49] Compile of FirstPersonAnim successful! [in 825 ms]
+[2016.05.16-23.30.16:157][958]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.17:123][958]BlueprintEditorCompileResults: Info [5289.81] Compile of FirstPersonAnim successful! [in 966 ms]
+[2016.05.16-23.30.20:673][169]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.21:405][169]BlueprintEditorCompileResults: Info [5294.09] Compile of FirstPersonAnim successful! [in 731 ms]
+[2016.05.16-23.30.24:604][349]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.25:369][349]BlueprintEditorCompileResults: Info [5298.05] Compile of FirstPersonAnim successful! [in 765 ms]
+[2016.05.16-23.30.28:169][515]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.28:889][515]BlueprintEditorCompileResults: Info [5301.57] Compile of FirstPersonAnim successful! [in 720 ms]
+[2016.05.16-23.30.31:665][676]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.32:308][676]BlueprintEditorCompileResults: Info [5304.99] Compile of FirstPersonAnim successful! [in 642 ms]
+[2016.05.16-23.30.35:456][855]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.36:111][855]BlueprintEditorCompileResults: Info [5308.79] Compile of FirstPersonAnim successful! [in 655 ms]
+[2016.05.16-23.30.39:503][ 58]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.40:168][ 58]BlueprintEditorCompileResults: Info [5312.85] Compile of FirstPersonAnim successful! [in 664 ms]
+[2016.05.16-23.30.43:107][216]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.43:768][216]BlueprintEditorCompileResults: Info [5316.45] Compile of FirstPersonAnim successful! [in 660 ms]
+[2016.05.16-23.30.47:497][446]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.48:070][446]BlueprintEditorCompileResults: Info [5320.75] Compile of FirstPersonAnim successful! [in 572 ms]
+[2016.05.16-23.30.53:055][761]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.53:713][761]BlueprintEditorCompileResults: Info [5326.40] Compile of FirstPersonAnim successful! [in 658 ms]
+[2016.05.16-23.30.57:577][997]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.30.58:318][997]BlueprintEditorCompileResults: Info [5331.00] Compile of FirstPersonAnim successful! [in 740 ms]
+[2016.05.16-23.31.01:439][162]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.02:143][162]BlueprintEditorCompileResults: Info [5334.82] Compile of FirstPersonAnim successful! [in 703 ms]
+[2016.05.16-23.31.06:994][426]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.07:871][426]BlueprintEditorCompileResults: Info [5340.55] Compile of FirstPersonAnim successful! [in 875 ms]
+[2016.05.16-23.31.12:372][656]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.13:323][656]BlueprintEditorCompileResults: Info [5346.00] Compile of FirstPersonAnim successful! [in 950 ms]
+[2016.05.16-23.31.16:717][825]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.17:638][825]BlueprintEditorCompileResults: Info [5350.32] Compile of FirstPersonAnim successful! [in 920 ms]
+[2016.05.16-23.31.20:990][996]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.22:019][996]BlueprintEditorCompileResults: Info [5354.70] Compile of FirstPersonAnim successful! [in 1,028 ms]
+[2016.05.16-23.31.27:798][317]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.29:290][317]BlueprintEditorCompileResults: Info [5361.97] Compile of FirstPersonAnim successful! [in 1,492 ms]
+[2016.05.16-23.31.32:918][535]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.33:926][535]BlueprintEditorCompileResults: Info [5366.61] Compile of FirstPersonAnim successful! [in 1,007 ms]
+[2016.05.16-23.31.36:911][715]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.37:645][715]BlueprintEditorCompileResults: Info [5370.33] Compile of FirstPersonAnim successful! [in 733 ms]
+[2016.05.16-23.31.41:308][946]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.42:017][946]BlueprintEditorCompileResults: Info [5374.70] Compile of FirstPersonAnim successful! [in 709 ms]
+[2016.05.16-23.31.58:823][ 73]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.31.59:366][ 73]BlueprintEditorCompileResults: Info [5392.05] Compile of FirstPersonAnim successful! [in 542 ms]
+[2016.05.16-23.32.02:031][229]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.02:673][229]BlueprintEditorCompileResults: Info [5395.35] Compile of FirstPersonAnim successful! [in 642 ms]
+[2016.05.16-23.32.09:795][726]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.10:407][726]BlueprintEditorCompileResults: Info [5403.09] Compile of FirstPersonAnim successful! [in 611 ms]
+[2016.05.16-23.32.18:125][235]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.18:869][235]BlueprintEditorCompileResults: Info [5411.55] Compile of FirstPersonAnim successful! [in 744 ms]
+[2016.05.16-23.32.24:047][581]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.24:575][581]BlueprintEditorCompileResults: Info [5417.26] Compile of FirstPersonAnim successful! [in 527 ms]
+[2016.05.16-23.32.27:933][803]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.28:522][803]BlueprintEditorCompileResults: Info [5421.20] Compile of FirstPersonAnim successful! [in 588 ms]
+[2016.05.16-23.32.45:967][ 10]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.46:539][ 10]BlueprintEditorCompileResults: Info [5439.22] Compile of FirstPersonAnim successful! [in 572 ms]
+[2016.05.16-23.32.49:879][203]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.32.50:473][203]BlueprintEditorCompileResults: Info [5443.15] Compile of FirstPersonAnim successful! [in 593 ms]
+[2016.05.16-23.33.14:744][ 10]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.15:376][ 10]BlueprintEditorCompileResults: Info [5468.06] Compile of FirstPersonAnim successful! [in 632 ms]
+[2016.05.16-23.33.24:539][596]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.25:220][596]BlueprintEditorCompileResults: Info [5477.90] Compile of FirstPersonAnim successful! [in 680 ms]
+[2016.05.16-23.33.30:634][928]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.31:294][928]BlueprintEditorCompileResults: Info [5483.97] Compile of FirstPersonAnim successful! [in 660 ms]
+[2016.05.16-23.33.34:512][116]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.35:205][116]BlueprintEditorCompileResults: Info [5487.88] Compile of FirstPersonAnim successful! [in 693 ms]
+[2016.05.16-23.33.38:627][319]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.39:320][319]BlueprintEditorCompileResults: Info [5492.00] Compile of FirstPersonAnim successful! [in 692 ms]
+[2016.05.16-23.33.47:266][876]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.47:904][876]BlueprintEditorCompileResults: Info [5500.58] Compile of FirstPersonAnim successful! [in 638 ms]
+[2016.05.16-23.33.51:697][ 98]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.33.52:468][ 98]BlueprintEditorCompileResults: Info [5505.15] Compile of FirstPersonAnim successful! [in 771 ms]
+[2016.05.16-23.33.57:022][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.33.57:022][367]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:33:57 PM)
+[2016.05.16-23.33.57:022][367]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.33.57:049][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026987s)
+[2016.05.16-23.33.57:050][367]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.33.57:051][367]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2016.05.16-23.33.57:051][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.028526s)
+[2016.05.16-23.33.57:102][367]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.33.57:114][367]LogInit: FAudioDevice initialized.
+[2016.05.16-23.33.57:170][367]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.33.57:209][367]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.33.57
+[2016.05.16-23.33.57:211][367]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.33.57:212][367]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.33.57:213][367]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.33.57:214][367]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.33.57:215][367]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.33.57:217][367]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.33.57:218][367]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.33.57:219][367]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.33.57:221][367]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.33.57:221][367]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.33.57:222][367]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.33.57:223][367]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.33.57:224][367]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.33.57:225][367]LogWorld: Bringing up level for play took: 0.053106
+[2016.05.16-23.33.57:226][367]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.33.57:231][367]LogBlueprintUserMessages: [MechChara_C_1542] wallruncollide
+[2016.05.16-23.33.57:256][367]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 0.845
+[2016.05.16-23.33.57:312][368]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.34.05:652][855]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.06:411][855]BlueprintEditorCompileResults: Info [5519.09] Compile of FirstPersonAnim successful! [in 759 ms]
+[2016.05.16-23.34.09:820][ 62]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.10:406][ 62]BlueprintEditorCompileResults: Info [5523.08] Compile of FirstPersonAnim successful! [in 586 ms]
+[2016.05.16-23.34.13:244][225]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.13:879][225]BlueprintEditorCompileResults: Info [5526.56] Compile of FirstPersonAnim successful! [in 634 ms]
+[2016.05.16-23.34.16:999][405]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.17:774][405]BlueprintEditorCompileResults: Info [5530.45] Compile of FirstPersonAnim successful! [in 774 ms]
+[2016.05.16-23.34.20:651][538]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.21:992][538]BlueprintEditorCompileResults: Info [5534.67] Compile of FirstPersonAnim successful! [in 1,341 ms]
+[2016.05.16-23.34.24:993][722]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.25:785][722]BlueprintEditorCompileResults: Info [5538.46] Compile of FirstPersonAnim successful! [in 791 ms]
+[2016.05.16-23.34.28:558][898]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.29:337][898]BlueprintEditorCompileResults: Info [5542.01] Compile of FirstPersonAnim successful! [in 778 ms]
+[2016.05.16-23.34.52:408][592]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.34.53:007][592]BlueprintEditorCompileResults: Info [5565.69] Compile of FirstPersonAnim successful! [in 598 ms]
+[2016.05.16-23.35.02:152][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.35.02:152][224]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:35:02 PM)
+[2016.05.16-23.35.02:152][224]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.35.02:179][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026717s)
+[2016.05.16-23.35.02:179][224]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.35.02:180][224]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2016.05.16-23.35.02:180][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.027989s)
+[2016.05.16-23.35.02:229][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.35.02:240][224]LogInit: FAudioDevice initialized.
+[2016.05.16-23.35.02:297][224]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.35.02:344][224]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.35.02
+[2016.05.16-23.35.02:346][224]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.35.02:347][224]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.35.02:348][224]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.35.02:350][224]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.35.02:351][224]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.35.02:352][224]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.35.02:353][224]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.35.02:354][224]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.35.02:356][224]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.35.02:356][224]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.35.02:357][224]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.35.02:358][224]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.35.02:359][224]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.35.02:360][224]LogWorld: Bringing up level for play took: 0.060349
+[2016.05.16-23.35.02:362][224]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.35.02:367][224]LogBlueprintUserMessages: [MechChara_C_1543] wallruncollide
+[2016.05.16-23.35.02:393][224]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.02
+[2016.05.16-23.35.02:456][225]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.35.27:438][905]BlueprintLog: New page: Compile FirstPersonAnim
+[2016.05.16-23.35.27:950][905]BlueprintEditorCompileResults: Info [5600.63] Compile of FirstPersonAnim successful! [in 511 ms]
+[2016.05.16-23.35.29:180][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.35.29:180][956]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:35:29 PM)
+[2016.05.16-23.35.29:180][956]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.35.29:207][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027314s)
+[2016.05.16-23.35.29:208][956]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.35.29:208][956]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2016.05.16-23.35.29:209][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.028688s)
+[2016.05.16-23.35.29:260][956]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.35.29:271][956]LogInit: FAudioDevice initialized.
+[2016.05.16-23.35.29:329][956]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.35.29:369][956]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.35.29
+[2016.05.16-23.35.29:371][956]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.35.29:372][956]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.35.29:373][956]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.35.29:375][956]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.35.29:376][956]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.35.29:377][956]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.35.29:378][956]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.35.29:379][956]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.35.29:380][956]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.35.29:380][956]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.35.29:381][956]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.35.29:382][956]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.35.29:384][956]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.35.29:384][956]LogWorld: Bringing up level for play took: 0.052046
+[2016.05.16-23.35.29:385][956]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.35.29:390][956]LogBlueprintUserMessages: [MechChara_C_1544] wallruncollide
+[2016.05.16-23.35.29:414][956]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 1.001
+[2016.05.16-23.35.29:474][957]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.35.51:003][238]LogSavePackage: Save=516.10ms
+[2016.05.16-23.35.51:003][238]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/FirstPersonAnimB7C5E5504DB30C83BFC61B9E3C9D7B08.tmp' to '../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/FirstPersonAnim.uasset'
+[2016.05.16-23.35.51:010][238]LogSavePackage: Total save time: 583.19ms
+[2016.05.16-23.35.51:010][238]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/FirstPersonAnim.uasset
+[2016.05.16-23.35.53:161][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.16-23.35.53:161][358]PIE: New page: PIE session: DEMOmap (May 16, 2016, 2:35:53 PM)
+[2016.05.16-23.35.53:161][358]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.16-23.35.53:188][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027012s)
+[2016.05.16-23.35.53:189][358]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.16-23.35.53:189][358]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2016.05.16-23.35.53:189][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.028231s)
+[2016.05.16-23.35.53:235][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.16-23.35.53:246][358]LogInit: FAudioDevice initialized.
+[2016.05.16-23.35.53:298][358]LogWorld: Game class is 'MechGame_C'
+[2016.05.16-23.35.53:335][358]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.16-19.35.53
+[2016.05.16-23.35.53:337][358]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.16-23.35.53:338][358]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.16-23.35.53:339][358]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.16-23.35.53:340][358]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.16-23.35.53:341][358]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.16-23.35.53:342][358]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.16-23.35.53:344][358]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.16-23.35.53:345][358]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.35.53:346][358]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.16-23.35.53:346][358]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.16-23.35.53:347][358]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.16-23.35.53:348][358]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.16-23.35.53:349][358]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.16-23.35.53:350][358]LogWorld: Bringing up level for play took: 0.050465
+[2016.05.16-23.35.53:351][358]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.16-23.35.53:356][358]LogBlueprintUserMessages: [MechChara_C_1545] wallruncollide
+[2016.05.16-23.35.53:382][358]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 0.968
+[2016.05.16-23.35.53:441][359]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.03:814][922]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2016.05.16-23.36.19:864][221]LogEditorTransaction: Undo Translate Bone
+[2016.05.16-23.36.21:742][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 413/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.21:829][305]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 413/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.25:245][413]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 444/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.25:616][414]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_10
+[2016.05.16-23.36.25:616][414]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_10
+[2016.05.16-23.36.27:119][528]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_10
+[2016.05.16-23.36.28:706][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 415/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.30:633][736]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 438/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.36:998][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.36.41:564][ 18]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 446/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.36.42:213][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.36.58:595][ 33]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_10' or package '/Engine/Transient'.
+[2016.05.16-23.37.01:477][292]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.37.01:557][299]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.16-23.37.03:160][351]LogSavePackage: Save=487.78ms
+[2016.05.16-23.37.03:162][351]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/DEMOmap_Auto31B1615C94744C7700A4F38882219C90E.tmp' to '../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/ThirdPersonBP/Maps/DEMOmap_Auto3.umap'
+[2016.05.16-23.37.03:166][351]LogSavePackage: Total save time: 722.56ms
+[2016.05.16-23.37.03:166][351]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/ThirdPersonBP/Maps/DEMOmap_Auto3.umap
+[2016.05.16-23.37.03:170][351]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/DEMOmap' took 0.781
+[2016.05.16-23.37.03:170][351]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.781
+[2016.05.16-23.37.03:196][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MechaInsurgent/MechaInsurgent/MechChara] ([1] browsable assets)...
+[2016.05.16-23.37.03:231][351]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MechaInsurgent/MechaInsurgent/MechChara.MechChara]
+[2016.05.16-23.37.03:231][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/MechaInsurgent/MechaInsurgent/MechChara]
+[2016.05.16-23.37.07:156][351]LogSavePackage: Save=3635.02ms
+[2016.05.16-23.37.07:159][351]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/MechChara_Auto36C8E399443C361667588DDBB8E6CBABA.tmp' to '../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/MechaInsurgent/MechaInsurgent/MechChara_Auto3.uasset'
+[2016.05.16-23.37.07:165][351]LogSavePackage: Total save time: 3930.90ms
+[2016.05.16-23.37.07:165][351]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Saved/Autosaves/Game/MechaInsurgent/MechaInsurgent/MechChara_Auto3.uasset
+[2016.05.16-23.37.07:165][351]LogFileHelpers: Auto-saving content packages took 3.995
+[2016.05.16-23.37.09:110][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.16-23.37.11:192][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MechaInsurgent/MechaInsurgent/MechChara" FILE="../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/MechChara.uasset" SILENT=true
+[2016.05.16-23.37.15:311][486]LogSavePackage: Save=4107.25ms
+[2016.05.16-23.37.15:312][486]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/MechChara80BEF5344372B9F548BDFE84E68C8ACD.tmp' to '../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/MechChara.uasset'
+[2016.05.16-23.37.15:322][486]LogSavePackage: Total save time: 4125.42ms
+[2016.05.16-23.37.15:322][486]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Content/MechaInsurgent/MechaInsurgent/MechChara.uasset
+[2016.05.16-23.37.15:440][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/DEMOmap" FILE="../../../../../../UnrealProjects/MechProject2/Content/ThirdPersonBP/Maps/DEMOmap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.16-23.37.15:922][486]LogSavePackage: Save=426.36ms
+[2016.05.16-23.37.15:922][486]LogSavePackage: Moving '../../../../../../UnrealProjects/MechProject2/Saved/DEMOmap85066D9B4D48DCAC1C778396A02BDBF0.tmp' to '../../../../../../UnrealProjects/MechProject2/Content/ThirdPersonBP/Maps/DEMOmap.umap'
+[2016.05.16-23.37.15:929][486]LogSavePackage: Total save time: 440.04ms
+[2016.05.16-23.37.15:929][486]LogSavePackage:Display: Finished SavePackage ../../../../../../UnrealProjects/MechProject2/Content/ThirdPersonBP/Maps/DEMOmap.umap
+[2016.05.16-23.37.15:975][486]LogFileHelpers: Saving map 'DEMOmap' took 0.649
+[2016.05.16-23.37.16:433][487]Cmd: QUIT_EDITOR
+[2016.05.16-23.37.16:603][487]LogExit: Preparing to exit.
+[2016.05.16-23.37.17:252][487]LogExit: Editor shut down
+[2016.05.16-23.37.17:253][487]LogExit: Transaction tracking system shut down
+[2016.05.16-23.37.17:611][487]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.16-23.37.17:612][487]LogExit: Object subsystem successfully closed.
+[2016.05.16-23.37.17:637][487]LogD3D11RHI: Shutdown
+[2016.05.16-23.37.17:637][487]LogD3D11RHI: CleanupD3DDevice
+[2016.05.16-23.37.17:761][487]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.16-23.37.17:876][487]LogDerivedDataCache: Shutdown
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module SuperSearch (202)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module WidgetCarousel (201)
+[2016.05.16-23.37.17:876][487]LogModuleManager: Shutting down and abandoning module AddContentDialog (200)
+[2016.05.16-23.37.17:878][487]LogModuleManager: Shutting down and abandoning module GameplayTags (199)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module EditorWidgets (198)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module CollectionManager (197)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module StatsViewer (196)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module FoliageEdit (195)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module LandscapeEditor (194)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module ActorPickerMode (193)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module GeometryMode (192)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module TextureAlignMode (191)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module BspMode (190)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module PlacementMode (189)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module AutomationWorker (188)
+[2016.05.16-23.37.17:879][487]LogModuleManager: Shutting down and abandoning module CharacterAI (187)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module SmartSnapping (186)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module ViewportSnapping (185)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module LogVisualizer (184)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (183)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module IntroTutorials (182)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (181)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (180)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (179)
+[2016.05.16-23.37.17:880][487]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (178)
+[2016.05.16-23.37.18:817][487]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (177)
+[2016.05.16-23.37.18:817][487]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (176)
+[2016.05.16-23.37.18:817][487]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (175)
+[2016.05.16-23.37.18:817][487]LogModuleManager: Shutting down and abandoning module MergeActors (174)
+[2016.05.16-23.37.18:817][487]LogModuleManager: Shutting down and abandoning module SizeMap (173)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module TreeMap (172)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module ReferenceViewer (171)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module LocalizationService (170)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (169)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module HardwareTargeting (168)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (167)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module UndoHistory (166)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module UserFeedback (165)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module XmlParser (164)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module Blutility (163)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (162)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (161)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module InputBindingEditor (160)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (159)
+[2016.05.16-23.37.18:818][487]LogModuleManager: Shutting down and abandoning module SettingsEditor (158)
+[2016.05.16-23.37.18:819][487]LogModuleManager: Shutting down and abandoning module ProjectLauncher (157)
+[2016.05.16-23.37.18:819][487]LogModuleManager: Shutting down and abandoning module SessionFrontend (156)
+[2016.05.16-23.37.18:819][487]LogModuleManager: Shutting down and abandoning module ProfilerClient (155)
+[2016.05.16-23.37.18:819][487]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (154)
+[2016.05.16-23.37.18:819][487]LogModuleManager: Shutting down and abandoning module DeviceManager (153)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module AutomationController (152)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module AutomationWindow (151)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module Layers (150)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (149)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module DetailCustomizations (148)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module PackagesDialog (147)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module Persona (146)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module Kismet (145)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module GraphEditor (144)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module ClassViewer (143)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module Toolbox (142)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module ModuleUI (141)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module MovieSceneTools (140)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module OutputLog (139)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module GammaUI (138)
+[2016.05.16-23.37.18:849][487]LogModuleManager: Shutting down and abandoning module Documentation (137)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (136)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module AnalyticsET (135)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module Analytics (134)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module PortalServices (133)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module PortalRpc (132)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module MessagingRpc (131)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module AITestSuite (130)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module GameplayDebugger (129)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module AIModule (128)
+[2016.05.16-23.37.18:850][487]LogModuleManager: Shutting down and abandoning module ProfilerService (127)
+[2016.05.16-23.37.18:990][487]LogModuleManager: Shutting down and abandoning module TaskGraph (126)
+[2016.05.16-23.37.18:990][487]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module WebBrowserWidget (124)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.16-23.37.18:991][487]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.16-23.37.18:992][487]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.16-23.37.18:992][487]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.16-23.37.18:992][487]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.16-23.37.18:992][487]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.16-23.37.18:992][487]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.16-23.37.18:992][487]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.16-23.37.18:994][487]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.16-23.37.18:994][487]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.16-23.37.18:995][487]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.16-23.37.18:997][487]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.16-23.37.20:259][487]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.16-23.37.20:260][487]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.16-23.37.20:260][487]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.16-23.37.20:360][487]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.16-23.37.20:360][487]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.16-23.37.20:360][487]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.16-23.37.20:360][487]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.16-23.37.20:360][487]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.16-23.37.20:361][487]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.16-23.37.20:362][487]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.16-23.37.20:362][487]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.16-23.37.20:362][487]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.16-23.37.20:362][487]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.16-23.37.20:362][487]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.16-23.37.20:362][487]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.16-23.37.20:365][487]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.16-23.37.20:366][487]LogDerivedDataCache: Shutdown
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.16-23.37.20:366][487]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.16-23.37.20:367][487]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.16-23.37.21:367][487]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.16-23.37.21:371][487]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.16-23.37.21:375][487]LogExit: Exiting.
+[2016.05.16-23.37.21:406][487]Log file closed, 05/16/16 19:37:21
