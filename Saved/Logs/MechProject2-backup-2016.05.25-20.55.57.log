@@ -1,0 +1,1388 @@
+﻿Log file open, 05/25/16 20:40:36
+LogInit:Display: Running engine for game: MechProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(381720883) SRandInit(381720885).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads.
+LogStats: Stats thread started at 0.114762
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: F:/Programs/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.26-00.40.36:601][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.26-00.40.36:601][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.26-00.40.36:614][  0]LogInit: Computer: Z600-PC
+[2016.05.26-00.40.36:614][  0]LogInit: User: Z600
+[2016.05.26-00.40.36:614][  0]LogInit: CPU Page size=65536, Cores=8
+[2016.05.26-00.40.36:614][  0]LogInit: High frequency timer resolution =2.597714 MHz
+[2016.05.26-00.40.36:614][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.05.26-00.40.36:614][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.26-00.40.36:614][  0]LogMemory: Process Physical Memory: 316.13 MB used, 316.13 MB peak
+[2016.05.26-00.40.36:614][  0]LogMemory: Process Virtual Memory: 319.93 MB used, 319.93 MB peak
+[2016.05.26-00.40.36:614][  0]LogMemory: Physical Memory: 6319.52 MB used, 12271.22 MB total
+[2016.05.26-00.40.36:614][  0]LogMemory: Virtual Memory: 626.74 MB used, 8388608.00 MB total
+[2016.05.26-00.40.36:678][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.26-00.40.37:286][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.26-00.40.37:304][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2016.05.26-00.40.37:304][  0]LogD3D11RHI:       1992MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.05.26-00.40.37:304][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.26-00.40.37:309][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.26-00.40.37:309][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2016.05.26-00.40.37:310][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.26-00.40.37:310][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.26-00.40.37:310][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.26-00.40.37:321][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.26-00.40.37:338][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../UnrealProjects/MechProject2/Intermediate/Shaders/WorkingDirectory/7248/).
+[2016.05.26-00.40.37:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Z600/AppData/Local/Temp/UnrealShaderWorkingDir/5961344A4A10C978E0719CB950FB33BD/'.
+[2016.05.26-00.40.37:338][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.26-00.40.38:602][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.26-00.40.38:608][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.26-00.40.38:615][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.26-00.40.38:622][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.26-00.40.38:628][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.26-00.40.38:632][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.26-00.40.38:637][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.26-00.40.38:642][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.26-00.40.38:647][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.26-00.40.38:652][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.26-00.40.38:656][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.26-00.40.38:666][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.26-00.40.38:666][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.26-00.40.38:668][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.26-00.40.38:687][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.26-00.40.38:692][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.26-00.40.38:697][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.26-00.40.38:702][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.26-00.40.38:707][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.26-00.40.38:707][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.26-00.40.38:809][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.26-00.40.38:892][  0]LogDerivedDataCache: Loaded boot cache 0.08s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.26-00.40.38:892][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.26-00.40.38:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProjects/MechProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.26-00.40.38:892][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.26-00.40.38:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProjects/MechProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.26-00.40.38:892][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.26-00.40.38:915][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.26-00.40.38:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Z600/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.26-00.40.39:169][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.26-00.40.39:171][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.26-00.40.39:206][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.26-00.40.39:397][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.26-00.40.39:397][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.26-00.40.39:397][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.26-00.40.39:741][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.26-00.40.39:741][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.26-00.40.39:741][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.26-00.40.39:749][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.26-00.40.39:867][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.26-00.40.39:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.26-00.40.40:001][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.26-00.40.40:001][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.26-00.40.40:001][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.26-00.40.40:001][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.26-00.40.40:001][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.26-00.40.40:001][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.26-00.40.40:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.26-00.40.40:894][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
+[2016.05.26-00.40.41:319][  0]SourceControl: Info Source control is disabled
+[2016.05.26-00.40.41:320][  0]SourceControl: Info Source control is disabled
+[2016.05.26-00.40.41:334][  0]SourceControl: Info Source control is disabled
+[2016.05.26-00.40.41:348][  0]SourceControl: Info Source control is disabled
+[2016.05.26-00.40.41:496][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.26-00.40.41:612][  0]LogEngine: Initializing Engine...
+[2016.05.26-00.40.41:827][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.26-00.40.41:836][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.40.41:849][  0]LogInit: FAudioDevice initialized.
+[2016.05.26-00.40.41:882][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/Z600/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.26-00.40.41:892][  0]LogInit: Texture streaming: Enabled
+[2016.05.26-00.40.41:927][  0]LogInit: Transaction tracking system initialized
+[2016.05.26-00.40.41:959][  0]BlueprintLog: New page: Editor Load
+[2016.05.26-00.40.42:084][  0]LocalizationService: Info Localization service is disabled
+[2016.05.26-00.40.42:188][  0]LogConsoleResponse:Display: 
+[2016.05.26-00.40.42:314][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.26-00.40.42:314][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.26-00.40.42:314][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.26-00.40.42:385][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Content/' took 0.02s
+[2016.05.26-00.40.42:385][  0]SourceControl: Info Source control is disabled
+[2016.05.26-00.40.42:385][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/MechProject2/Content/ThirdPersonBP/Maps/DEMOmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.26-00.40.42:385][  0]LightingResults: New page: Lighting Build
+[2016.05.26-00.40.42:388][  0]MapCheck: New page: Map Check
+[2016.05.26-00.40.42:388][  0]LightingResults: New page: Lighting Build
+[2016.05.26-00.40.47:904][  0]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.40.47:909][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.26-00.40.47:913][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2016.05.26-00.40.47:980][  0]MapCheck:Warning: Warning M_Basic_Floor Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.05.26-00.40.47:981][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.26-00.40.48:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.26-00.40.48:122][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.26-00.40.48:227][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 105.08ms to complete.
+[2016.05.26-00.40.48:249][  0]LogFileHelpers: Loading map 'DEMOmap' took 5.863
+[2016.05.26-00.40.48:473][  0]LogCollectionManager: Loaded 0 collections in 0.002135 seconds
+[2016.05.26-00.40.48:514][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Saved/Collections/' took 0.01s
+[2016.05.26-00.40.48:514][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Content/Developers/Z600/Collections/' took 0.01s
+[2016.05.26-00.40.48:514][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/MechProject2/Content/Collections/' took 0.01s
+[2016.05.26-00.40.48:514][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.26-00.40.48:526][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 1980 classes and 346 folders.
+[2016.05.26-00.40.48:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.26-00.40.48:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.26-00.40.48:531][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.05.26-00.40.48:536][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.26-00.40.48:546][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.26-00.40.48:596][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.26-00.40.48:603][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.26-00.40.48:734][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.26-00.40.48:739][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.26-00.40.48:780][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.26-00.40.48:780][  0]LogLoad: Full Startup: 13.21 seconds (BP compile: 1.78 seconds)
+[2016.05.26-00.40.48:780][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.26-00.40.48:789][  0]LogOcInput: OculusInput pre-init called
+[2016.05.26-00.40.48:862][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.26-00.40.49:086][  0]LogRenderer: Reallocating scene render targets to support 1076x572 (Frame:2).
+[2016.05.26-00.40.49:373][  2]LogAssetRegistry: Asset discovery search completed in 8.4991 seconds
+[2016.05.26-00.40.49:373][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.26-00.40.49:373][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.05.26-00.44.15:861][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.26-00.44.15:862][  4]PIE: New page: PIE session: DEMOmap (May 25, 2016, 3:44:15 PM)
+[2016.05.26-00.44.15:862][  4]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.26-00.44.15:898][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036387s)
+[2016.05.26-00.44.15:899][  4]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.44.15:899][  4]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2016.05.26-00.44.15:900][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.037660s)
+[2016.05.26-00.44.15:900][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.26-00.44.15:900][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.26-00.44.16:108][  4]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.44.16:118][  4]LogInit: FAudioDevice initialized.
+[2016.05.26-00.44.16:190][  4]LogWorld: Game class is 'MechGame_C'
+[2016.05.26-00.44.16:264][  4]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.25-20.44.16
+[2016.05.26-00.44.16:267][  4]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.26-00.44.16:268][  4]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.44.16:269][  4]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.26-00.44.16:270][  4]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.26-00.44.16:271][  4]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.44.16:273][  4]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.44.16:274][  4]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.44.16:275][  4]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.16:276][  4]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.16:276][  4]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.44.16:277][  4]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.44.16:278][  4]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.44.16:280][  4]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.44.16:281][  4]LogWorld: Bringing up level for play took: 0.088254
+[2016.05.26-00.44.16:283][  4]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.26-00.44.16:287][  4]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.26-00.44.16:292][  4]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.16:292][  4]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.16:297][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara11_4728)
+[2016.05.26-00.44.16:298][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara13_5588)
+[2016.05.26-00.44.16:299][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara15)
+[2016.05.26-00.44.16:300][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara16)
+[2016.05.26-00.44.16:301][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara2)
+[2016.05.26-00.44.16:302][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara3)
+[2016.05.26-00.44.16:303][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara4_17492)
+[2016.05.26-00.44.16:304][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara5)
+[2016.05.26-00.44.16:305][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara6)
+[2016.05.26-00.44.16:307][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara7)
+[2016.05.26-00.44.16:308][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara8_441)
+[2016.05.26-00.44.16:309][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_5996)
+[2016.05.26-00.44.16:310][  4]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_C_276)
+[2016.05.26-00.44.16:319][  4]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.398
+[2016.05.26-00.44.16:432][  5]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:17816).
+[2016.05.26-00.44.16:554][  6]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 428/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.44.18:571][101]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.18:571][101]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.18:571][101]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.18:571][101]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.18:571][101]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.44.18:571][101]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.18:594][102]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.18:595][102]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.18:595][102]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.44.18:595][102]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.44.19:253][129]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.19:277][130]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.19:277][130]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.44.19:299][131]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.19:300][131]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.44.19:325][132]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.44.19:372][134]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.44.19:516][140]LogBlueprintUserMessages: [MechChara_C_276] wallruncollide
+[2016.05.26-00.44.19:516][140]LogBlueprintUserMessages: [MechChara_C_276] RightOn
+[2016.05.26-00.44.20:024][161]LogBlueprintUserMessages: [MechChara_C_276] RightOff
+[2016.05.26-00.44.22:014][251]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 412/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.44.25:679][453]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.44.25:972][456]LogAnimation:Warning: Setting an additve animation (FPDrage) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.26-00.44.26:119][463]LogAnimation:Warning: Setting an additve animation (FPDrage) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.26-00.44.26:291][470]LogAnimation:Warning: Setting an additve animation (FPDrage) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.26-00.44.26:464][477]LogAnimation:Warning: Setting an additve animation (FPDrage) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.26-00.44.26:640][484]LogAnimation:Warning: Setting an additve animation (FPDrage) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.26-00.44.26:816][491]LogAnimation:Warning: Setting an additve animation (FPDrage) on an AnimSingleNodeInstance is not allowed. This will not function correctly in cooked builds!
+[2016.05.26-00.44.27:067][506]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.44.28:581][562]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 415/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.44.30:344][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.26-00.44.30:344][641]PIE: New page: PIE session: DEMOmap (May 25, 2016, 3:44:30 PM)
+[2016.05.26-00.44.30:344][641]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.26-00.44.30:381][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036500s)
+[2016.05.26-00.44.30:382][641]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.44.30:382][641]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2016.05.26-00.44.30:382][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.037675s)
+[2016.05.26-00.44.30:382][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.26-00.44.30:382][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.26-00.44.30:440][641]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.44.30:449][641]LogInit: FAudioDevice initialized.
+[2016.05.26-00.44.30:506][641]LogWorld: Game class is 'MechGame_C'
+[2016.05.26-00.44.30:551][641]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.25-20.44.30
+[2016.05.26-00.44.30:554][641]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.26-00.44.30:556][641]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.44.30:558][641]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.26-00.44.30:560][641]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.26-00.44.30:562][641]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.44.30:563][641]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.44.30:565][641]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.44.30:567][641]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.30:569][641]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.30:569][641]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.44.30:571][641]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.44.30:573][641]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.44.30:575][641]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.44.30:577][641]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.30:578][641]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.30:578][641]LogWorld: Bringing up level for play took: 0.070552
+[2016.05.26-00.44.30:580][641]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.26-00.44.30:585][641]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.30:585][641]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.30:589][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara7)
+[2016.05.26-00.44.30:590][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara6)
+[2016.05.26-00.44.30:591][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara5)
+[2016.05.26-00.44.30:592][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara4_17492)
+[2016.05.26-00.44.30:593][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara3)
+[2016.05.26-00.44.30:595][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara2)
+[2016.05.26-00.44.30:596][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara16)
+[2016.05.26-00.44.30:597][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara15)
+[2016.05.26-00.44.30:598][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara13_5588)
+[2016.05.26-00.44.30:599][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara11_4728)
+[2016.05.26-00.44.30:600][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_C_556)
+[2016.05.26-00.44.30:602][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara8_441)
+[2016.05.26-00.44.30:603][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_5996)
+[2016.05.26-00.44.30:604][641]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara9_486)
+[2016.05.26-00.44.30:616][641]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.102
+[2016.05.26-00.44.30:764][643]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 466/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.44.34:808][840]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.34:808][840]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.34:808][840]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.34:831][841]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.34:831][841]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.34:831][841]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.35:178][856]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.35:178][856]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:210][946]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:230][947]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:230][947]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:232][947]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:232][947]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:232][947]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:232][947]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:254][948]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:254][948]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:254][948]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:254][948]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:275][949]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:275][949]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:276][949]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:276][949]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:297][950]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:297][950]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:297][950]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:297][950]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:320][951]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:320][951]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:320][951]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:320][951]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:343][952]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:343][952]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:364][953]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:364][953]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:364][953]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:386][954]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:387][954]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:387][954]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:757][971]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:757][971]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:757][971]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:778][972]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.37:799][973]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.37:820][974]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.38:908][ 27]LogBlueprintUserMessages: [MechChara_C_556] Control
+[2016.05.26-00.44.38:908][ 27]LogScript:Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap:PersistentLevel.MechChara_C_556
+	Function /Game/MechaInsurgent/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:65CD
+[2016.05.26-00.44.38:908][ 27]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetController_ReturnValue from function: 'ExecuteUbergraph_MechChara' from node: Set Control Rotation in graph: EventGraph in object: MechChara
+[2016.05.26-00.44.45:601][339]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.45:601][339]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.45:601][339]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.45:601][339]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.45:620][340]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.45:639][341]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.47:797][443]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.47:797][443]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.47:797][443]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.47:797][443]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.47:797][443]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.47:797][443]LogBlueprintUserMessages: [MechChara_C_556] wallruncollide
+[2016.05.26-00.44.58:826][972]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.58:827][972]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.44.58:853][973]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.44.58:853][973]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.44.58:853][973]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.58:951][977]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.58:951][977]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.58:951][977]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.58:976][978]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.44.58:976][978]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.44.59:322][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.45.01:098][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.26-00.45.01:098][ 62]PIE: New page: PIE session: DEMOmap (May 25, 2016, 3:45:01 PM)
+[2016.05.26-00.45.01:098][ 62]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.26-00.45.01:135][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036731s)
+[2016.05.26-00.45.01:136][ 62]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.45.01:136][ 62]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2016.05.26-00.45.01:136][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.037964s)
+[2016.05.26-00.45.01:189][ 62]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.45.01:198][ 62]LogInit: FAudioDevice initialized.
+[2016.05.26-00.45.01:252][ 62]LogWorld: Game class is 'MechGame_C'
+[2016.05.26-00.45.01:296][ 62]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.25-20.45.01
+[2016.05.26-00.45.01:299][ 62]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.26-00.45.01:300][ 62]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.45.01:301][ 62]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.26-00.45.01:302][ 62]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.26-00.45.01:303][ 62]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.45.01:304][ 62]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.45.01:306][ 62]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.45.01:307][ 62]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.45.01:309][ 62]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.45.01:309][ 62]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.45.01:310][ 62]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.45.01:311][ 62]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.45.01:312][ 62]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.45.01:314][ 62]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.01:314][ 62]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.01:315][ 62]LogWorld: Bringing up level for play took: 0.060922
+[2016.05.26-00.45.01:317][ 62]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.26-00.45.01:322][ 62]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.01:322][ 62]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.01:325][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara8_441)
+[2016.05.26-00.45.01:326][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara7)
+[2016.05.26-00.45.01:327][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara6)
+[2016.05.26-00.45.01:329][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara5)
+[2016.05.26-00.45.01:330][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara4_17492)
+[2016.05.26-00.45.01:331][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara3)
+[2016.05.26-00.45.01:332][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara2)
+[2016.05.26-00.45.01:333][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara16)
+[2016.05.26-00.45.01:334][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara15)
+[2016.05.26-00.45.01:335][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara13_5588)
+[2016.05.26-00.45.01:336][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara11_4728)
+[2016.05.26-00.45.01:337][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_5996)
+[2016.05.26-00.45.01:339][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara9_486)
+[2016.05.26-00.45.01:340][ 62]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_C_557)
+[2016.05.26-00.45.01:352][ 62]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap 0.633
+[2016.05.26-00.45.01:456][ 64]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.45.04:036][186]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.04:742][216]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.04:790][218]LogBlueprintUserMessages: [MechChara_C_557] wallruncollide
+[2016.05.26-00.45.04:790][218]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.45.06:430][282]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.45.16:541][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 447/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.45.17:028][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.26-00.45.18:327][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.26-00.45.18:327][925]PIE: New page: PIE session: DEMOmap (May 25, 2016, 3:45:18 PM)
+[2016.05.26-00.45.18:327][925]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.26-00.45.18:366][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038886s)
+[2016.05.26-00.45.18:367][925]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.45.18:367][925]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2016.05.26-00.45.18:367][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.040051s)
+[2016.05.26-00.45.18:367][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.26-00.45.18:367][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.26-00.45.18:398][925]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.45.18:405][925]LogInit: FAudioDevice initialized.
+[2016.05.26-00.45.18:459][925]LogWorld: Game class is 'MechGame_C'
+[2016.05.26-00.45.18:507][925]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.25-20.45.18
+[2016.05.26-00.45.18:509][925]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.26-00.45.18:511][925]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.45.18:512][925]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.26-00.45.18:513][925]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.26-00.45.18:514][925]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.45.18:515][925]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.45.18:516][925]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.45.18:518][925]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.45.18:519][925]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.45.18:519][925]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.45.18:520][925]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.45.18:521][925]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.45.18:522][925]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.45.18:524][925]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.18:524][925]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.18:525][925]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.18:525][925]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.18:526][925]LogWorld: Bringing up level for play took: 0.065231
+[2016.05.26-00.45.18:528][925]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.26-00.45.18:532][925]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.18:533][925]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.18:536][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara6)
+[2016.05.26-00.45.18:537][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara5)
+[2016.05.26-00.45.18:538][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara4_17492)
+[2016.05.26-00.45.18:539][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara3)
+[2016.05.26-00.45.18:541][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara2)
+[2016.05.26-00.45.18:542][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara16)
+[2016.05.26-00.45.18:543][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara15)
+[2016.05.26-00.45.18:544][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara13_5588)
+[2016.05.26-00.45.18:545][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara11_4728)
+[2016.05.26-00.45.18:546][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_C_998)
+[2016.05.26-00.45.18:547][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara7)
+[2016.05.26-00.45.18:548][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara8_441)
+[2016.05.26-00.45.18:549][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_5996)
+[2016.05.26-00.45.18:551][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara9_486)
+[2016.05.26-00.45.18:552][925]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara10_928)
+[2016.05.26-00.45.18:563][925]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.156
+[2016.05.26-00.45.18:736][927]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.45.19:968][985]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.19:968][985]LogBlueprintUserMessages: [MechChara_C_998] RightOn
+[2016.05.26-00.45.20:209][997]LogBlueprintUserMessages: [MechChara_C_998] RightOff
+[2016.05.26-00.45.22:728][120]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.22:729][120]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.22:729][120]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.22:729][120]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.22:729][120]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.22:750][121]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.23:138][139]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.24:946][224]LogBlueprintUserMessages: [MechChara_C_998] No Target
+[2016.05.26-00.45.24:992][226]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.24:992][226]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.24:992][226]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.24:992][226]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.25:015][227]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.25:015][227]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.25:382][244]LogBlueprintUserMessages: [MechChara_C_998] No Target
+[2016.05.26-00.45.25:786][263]LogBlueprintUserMessages: [MechChara_C_998] No Target
+[2016.05.26-00.45.26:141][280]LogBlueprintUserMessages: [MechChara_C_998] Control
+[2016.05.26-00.45.26:142][280]LogScript:Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap:PersistentLevel.MechChara_C_998
+	Function /Game/MechaInsurgent/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:65CD
+[2016.05.26-00.45.26:142][280]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetController_ReturnValue from function: 'ExecuteUbergraph_MechChara' from node: Set Control Rotation in graph: EventGraph in object: MechChara
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.31:281][539]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.31:301][540]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.31:301][540]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.31:301][540]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.31:301][540]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.31:301][540]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.34:751][705]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.34:751][705]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.34:751][705]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.34:770][706]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.34:770][706]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.34:772][706]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.34:772][706]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.34:793][707]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:118][722]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:225][727]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.35:225][727]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.35:225][727]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.35:225][727]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:246][728]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.35:246][728]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.35:247][728]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:247][728]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:247][728]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.45.35:247][728]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:268][729]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.35:289][730]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.35:400][735]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:578][743]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.35:578][743]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.36:916][806]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.36:916][806]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.36:916][806]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.36:916][806]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.36:916][806]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.36:939][807]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.37:042][812]LogBlueprintUserMessages: [MechChara9_486] No Target
+[2016.05.26-00.45.37:535][836]LogBlueprintUserMessages: [MechChara9_486] No Target
+[2016.05.26-00.45.38:515][884]LogBlueprintUserMessages: [MechChara9_486] Control
+[2016.05.26-00.45.38:516][884]LogScript:Warning: Accessed None trying to read property CallFunc_GetController_ReturnValue
+	MechChara_C /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap:PersistentLevel.MechChara9_486
+	Function /Game/MechaInsurgent/MechaInsurgent/MechChara.MechChara_C:ExecuteUbergraph_MechChara:65CD
+[2016.05.26-00.45.38:516][884]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetController_ReturnValue from function: 'ExecuteUbergraph_MechChara' from node: Set Control Rotation in graph: EventGraph in object: MechChara
+[2016.05.26-00.45.50:617][458]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.50:617][458]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.50:618][458]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.50:618][458]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.45.50:641][459]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.45.50:641][459]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.47.21:045][998]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.47.21:045][998]LogBlueprintUserMessages: [MechChara10_928] RightOn
+[2016.05.26-00.47.21:305][ 11]LogBlueprintUserMessages: [MechChara10_928] RightOff
+[2016.05.26-00.47.21:972][ 44]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.47.37:289][823]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.47.37:289][823]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.47.37:315][824]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.47.37:337][825]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.47.37:337][825]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.47.37:359][826]LogBlueprintUserMessages: [MechChara_C_998] wallruncollide
+[2016.05.26-00.48.33:809][624]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.36:350][748]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.36:350][748]LogBlueprintUserMessages: [MechChara10_928] leftOn
+[2016.05.26-00.48.36:480][754]LogBlueprintUserMessages: [MechChara10_928] LeftOff
+[2016.05.26-00.48.39:102][885]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.39:102][885]LogBlueprintUserMessages: [MechChara10_928] leftOn
+[2016.05.26-00.48.39:470][904]LogBlueprintUserMessages: [MechChara10_928] Hello
+[2016.05.26-00.48.39:490][905]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.48.40:467][953]LogBlueprintUserMessages: [MechChara10_928] 1
+[2016.05.26-00.48.41:636][ 12]LogBlueprintUserMessages: [MechChara10_928] LeftOff
+[2016.05.26-00.48.41:755][ 18]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.41:755][ 18]LogBlueprintUserMessages: [MechChara10_928] leftOn
+[2016.05.26-00.48.41:756][ 18]LogBlueprintUserMessages: [MechChara10_928] LeftOff
+[2016.05.26-00.48.41:774][ 19]LogBlueprintUserMessages: [MechChara10_928] leftOn
+[2016.05.26-00.48.41:776][ 19]LogBlueprintUserMessages: [MechChara10_928] LeftOff
+[2016.05.26-00.48.42:264][ 43]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.42:264][ 43]LogBlueprintUserMessages: [MechChara10_928] RightOn
+[2016.05.26-00.48.42:560][ 57]LogBlueprintUserMessages: [MechChara10_928] Hello
+[2016.05.26-00.48.42:580][ 58]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.48.43:561][103]LogBlueprintUserMessages: [MechChara10_928] 1
+[2016.05.26-00.48.44:094][130]LogBlueprintUserMessages: [MechChara10_928] RightOff
+[2016.05.26-00.48.46:977][276]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.46:977][276]LogBlueprintUserMessages: [MechChara10_928] RightOn
+[2016.05.26-00.48.47:256][290]LogBlueprintUserMessages: [MechChara10_928] Hello
+[2016.05.26-00.48.47:276][291]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.48.48:251][338]LogBlueprintUserMessages: [MechChara10_928] 1
+[2016.05.26-00.48.48:352][343]LogBlueprintUserMessages: [MechChara10_928] RightOff
+[2016.05.26-00.48.52:238][524]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.48.52:238][524]LogBlueprintUserMessages: [MechChara10_928] RightOn
+[2016.05.26-00.48.52:297][527]LogBlueprintUserMessages: [MechChara10_928] RightOff
+[2016.05.26-00.48.56:042][711]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.02:673][ 45]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.03:073][ 63]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.04:489][131]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.21:030][961]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.21:031][961]LogBlueprintUserMessages: [MechChara10_928] leftOn
+[2016.05.26-00.49.22:382][ 29]LogBlueprintUserMessages: [MechChara10_928] LeftOff
+[2016.05.26-00.49.33:527][579]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.34:360][619]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.35:477][674]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.48:383][294]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.49.48:405][295]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.49.48:426][296]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.48:446][297]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.48:446][297]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.49.50:723][409]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.49.50:743][410]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.49.50:786][412]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.50:786][412]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.49.50:805][413]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.52:324][482]LogBlueprintUserMessages: [MechChara10_928] Hello
+[2016.05.26-00.49.52:324][482]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.49.52:346][483]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.49.52:367][484]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.52:368][484]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.49.52:394][485]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.49.52:416][486]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.49.53:139][521]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.53:139][521]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.53:139][521]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.53:200][524]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.53:328][530]LogBlueprintUserMessages: [MechChara10_928] 1
+[2016.05.26-00.49.53:348][531]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.53:802][553]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.53:823][554]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.53:824][554]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.53:824][554]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.53:869][556]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.56:439][677]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.56:460][678]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.56:480][679]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.56:501][680]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.49.56:501][680]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.49.57:165][712]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.49.59:995][810]LogBlueprintUserMessages: [MechChara10_928] Hello
+[2016.05.26-00.49.59:995][810]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.50.00:019][811]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.50.00:039][812]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.50.00:040][812]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.50.00:065][813]LogBlueprintUserMessages: [MechChara10_928] nope
+[2016.05.26-00.50.00:977][854]LogBlueprintUserMessages: [MechChara10_928] 1
+[2016.05.26-00.50.03:997][995]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.50.06:410][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.26-00.50.06:410][138]PIE: New page: PIE session: DEMOmap (May 25, 2016, 3:50:06 PM)
+[2016.05.26-00.50.06:410][138]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.26-00.50.06:449][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039198s)
+[2016.05.26-00.50.06:450][138]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.50.06:450][138]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2016.05.26-00.50.06:450][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.040392s)
+[2016.05.26-00.50.06:476][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.50.06:486][138]LogInit: FAudioDevice initialized.
+[2016.05.26-00.50.06:542][138]LogWorld: Game class is 'MechGame_C'
+[2016.05.26-00.50.06:589][138]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.25-20.50.06
+[2016.05.26-00.50.06:592][138]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.26-00.50.06:593][138]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.50.06:594][138]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.26-00.50.06:595][138]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.26-00.50.06:596][138]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.50.06:597][138]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.50.06:599][138]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.50.06:600][138]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.50.06:601][138]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.50.06:601][138]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.50.06:602][138]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.50.06:604][138]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.50.06:605][138]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.50.06:606][138]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.06:607][138]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.06:608][138]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.06:608][138]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.06:609][138]LogWorld: Bringing up level for play took: 0.063855
+[2016.05.26-00.50.06:610][138]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.26-00.50.06:615][138]LogBlueprintUserMessages: [MechChara_C_999] wallruncollide
+[2016.05.26-00.50.06:615][138]LogBlueprintUserMessages: [MechChara_C_999] wallruncollide
+[2016.05.26-00.50.06:618][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara7)
+[2016.05.26-00.50.06:619][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara6)
+[2016.05.26-00.50.06:621][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara5)
+[2016.05.26-00.50.06:622][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara4_17492)
+[2016.05.26-00.50.06:623][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara3)
+[2016.05.26-00.50.06:624][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara2)
+[2016.05.26-00.50.06:625][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara16)
+[2016.05.26-00.50.06:626][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara15)
+[2016.05.26-00.50.06:627][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara13_5588)
+[2016.05.26-00.50.06:629][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara11_4728)
+[2016.05.26-00.50.06:630][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara8_441)
+[2016.05.26-00.50.06:631][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_5996)
+[2016.05.26-00.50.06:632][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara9_486)
+[2016.05.26-00.50.06:633][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara10_928)
+[2016.05.26-00.50.06:635][138]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_C_999)
+[2016.05.26-00.50.06:645][138]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.08
+[2016.05.26-00.50.06:844][140]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.50.19:144][737]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:165][738]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:187][739]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:210][740]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:210][740]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:232][741]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:255][742]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:256][742]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:279][743]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:279][743]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:301][744]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:301][744]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:324][745]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:324][745]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:346][746]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:346][746]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:369][747]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:369][747]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:391][748]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:391][748]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:413][749]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:414][749]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:435][750]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:435][750]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:457][751]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:457][751]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:479][752]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:479][752]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:501][753]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:501][753]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:523][754]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:523][754]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:545][755]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:545][755]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:569][756]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:569][756]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:592][757]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:592][757]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:616][758]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:616][758]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:639][759]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:639][759]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:663][760]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:663][760]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:687][761]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:687][761]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:710][762]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:710][762]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:733][763]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:733][763]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:756][764]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:756][764]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:781][765]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:781][765]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:805][766]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:805][766]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:828][767]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:828][767]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:851][768]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:851][768]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:874][769]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:874][769]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:897][770]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:897][770]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:919][771]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:919][771]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:942][772]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:942][772]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:964][773]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:964][773]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:988][774]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.19:988][774]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:011][775]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:011][775]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:035][776]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:035][776]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:057][777]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:058][777]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:081][778]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:081][778]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:103][779]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:103][779]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:127][780]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:127][780]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:151][781]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:151][781]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:175][782]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:175][782]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:199][783]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:199][783]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:222][784]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:222][784]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:247][785]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:247][785]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:270][786]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:270][786]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:294][787]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:295][787]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:318][788]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:318][788]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:342][789]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:342][789]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:366][790]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:366][790]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:390][791]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:390][791]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:414][792]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:414][792]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:437][793]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:437][793]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:461][794]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:461][794]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:484][795]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:484][795]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:507][796]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:507][796]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:531][797]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:531][797]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:554][798]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:555][798]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:577][799]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:577][799]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:600][800]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:600][800]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:626][801]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:626][801]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:650][802]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:650][802]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:675][803]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:675][803]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:699][804]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:699][804]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:723][805]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:723][805]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:748][806]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:748][806]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:770][807]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:770][807]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:792][808]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:793][808]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.20:814][809]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.21:374][833]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:374][833]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.21:374][833]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:399][834]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:494][838]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:517][839]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:541][840]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:564][841]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:588][842]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:611][843]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:634][844]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:658][845]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.21:685][846]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:292][921]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:313][922]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:334][923]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:355][924]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:376][925]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:395][926]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:522][932]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:522][932]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:522][932]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.23:522][932]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.23:524][932]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.28:047][134]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.50.31:808][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.26-00.50.31:808][381]PIE: New page: PIE session: DEMOmap (May 25, 2016, 3:50:31 PM)
+[2016.05.26-00.50.31:808][381]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap
+[2016.05.26-00.50.31:847][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038122s)
+[2016.05.26-00.50.31:847][381]LogAIModule: Creating AISystem for world DEMOmap
+[2016.05.26-00.50.31:847][381]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2016.05.26-00.50.31:848][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DEMOmap.DEMOmap to /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap (0.039335s)
+[2016.05.26-00.50.31:848][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.26-00.50.31:876][381]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.26-00.50.31:886][381]LogInit: FAudioDevice initialized.
+[2016.05.26-00.50.31:941][381]LogWorld: Game class is 'MechGame_C'
+[2016.05.26-00.50.31:991][381]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap.DEMOmap up for play (max tick rate 0) at 2016.05.25-20.50.31
+[2016.05.26-00.50.31:994][381]LogBlueprintUserMessages: [MechChara11_4728] wallruncollide
+[2016.05.26-00.50.31:995][381]LogBlueprintUserMessages: [MechChara13_5588] wallruncollide
+[2016.05.26-00.50.31:996][381]LogBlueprintUserMessages: [MechChara15] wallruncollide
+[2016.05.26-00.50.31:997][381]LogBlueprintUserMessages: [MechChara16] wallruncollide
+[2016.05.26-00.50.31:998][381]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.50.32:000][381]LogBlueprintUserMessages: [MechChara3] wallruncollide
+[2016.05.26-00.50.32:001][381]LogBlueprintUserMessages: [MechChara4_17492] wallruncollide
+[2016.05.26-00.50.32:002][381]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.50.32:003][381]LogBlueprintUserMessages: [MechChara5] wallruncollide
+[2016.05.26-00.50.32:003][381]LogBlueprintUserMessages: [MechChara6] wallruncollide
+[2016.05.26-00.50.32:004][381]LogBlueprintUserMessages: [MechChara7] wallruncollide
+[2016.05.26-00.50.32:006][381]LogBlueprintUserMessages: [MechChara8_441] wallruncollide
+[2016.05.26-00.50.32:007][381]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.50.32:009][381]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.32:009][381]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.50.32:010][381]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.32:010][381]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.50.32:011][381]LogWorld: Bringing up level for play took: 0.066066
+[2016.05.26-00.50.32:012][381]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.05.26-00.50.32:017][381]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.50.32:017][381]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.50.32:021][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara7)
+[2016.05.26-00.50.32:022][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara6)
+[2016.05.26-00.50.32:023][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara5)
+[2016.05.26-00.50.32:024][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara4_17492)
+[2016.05.26-00.50.32:025][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara3)
+[2016.05.26-00.50.32:026][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara2)
+[2016.05.26-00.50.32:028][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara16)
+[2016.05.26-00.50.32:029][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara15)
+[2016.05.26-00.50.32:030][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara13_5588)
+[2016.05.26-00.50.32:031][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara11_4728)
+[2016.05.26-00.50.32:032][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara8_441)
+[2016.05.26-00.50.32:033][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_5996)
+[2016.05.26-00.50.32:034][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara9_486)
+[2016.05.26-00.50.32:035][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara10_928)
+[2016.05.26-00.50.32:036][381]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Object) or object (MechChara_C_1000)
+[2016.05.26-00.50.32:047][381]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DEMOmap -0.679
+[2016.05.26-00.50.32:156][383]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 450/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.50.39:942][762]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.50.39:964][763]LogBlueprintUserMessages: [MechChara_C_1000] leftOn
+[2016.05.26-00.50.40:011][765]LogBlueprintUserMessages: [MechChara_C_1000] LeftOff
+[2016.05.26-00.51.52:084][349]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:084][349]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.51.52:104][350]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:104][350]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.51.52:105][350]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:126][351]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.51.52:742][379]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:763][380]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:782][381]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:805][382]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:807][382]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:807][382]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:807][382]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:828][383]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:828][383]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:829][383]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:850][384]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:850][384]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:850][384]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:871][385]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:872][385]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:872][385]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:894][386]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:894][386]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:894][386]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:915][387]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:915][387]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:915][387]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:938][388]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:938][388]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:938][388]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:958][389]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:959][389]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.52:959][389]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.52:980][390]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.53:064][394]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:086][395]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:110][396]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:132][397]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:153][398]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:175][399]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:175][399]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:197][400]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:197][400]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:218][401]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:218][401]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:241][402]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:241][402]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:265][403]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:265][403]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:287][404]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:287][404]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:309][405]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:309][405]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:331][406]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:331][406]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:352][407]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:352][407]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:375][408]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:375][408]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:398][409]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:398][409]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:420][410]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:420][410]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:442][411]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:442][411]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:469][412]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:469][412]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:492][413]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:515][414]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:538][415]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:563][416]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:563][416]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:586][417]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:608][418]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:630][419]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:657][420]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:657][420]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:684][421]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:684][421]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:710][422]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:710][422]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:734][423]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:734][423]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:758][424]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:758][424]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:781][425]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:781][425]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:805][426]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:805][426]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:829][427]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:829][427]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:853][428]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:853][428]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:882][429]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:882][429]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:904][430]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:928][431]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:952][432]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:976][433]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.53:999][434]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:022][435]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:046][436]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:070][437]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:093][438]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:116][439]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:139][440]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:163][441]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:188][442]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:210][443]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:233][444]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:257][445]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:279][446]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:303][447]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:325][448]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:347][449]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:369][450]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:395][451]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:395][451]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:417][452]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:417][452]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:439][453]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:462][454]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:648][462]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:672][463]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:695][464]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:719][465]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:741][466]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:763][467]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:787][468]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:810][469]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:832][470]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:856][471]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:880][472]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:903][473]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:926][474]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:948][475]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:971][476]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.54:996][477]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:018][478]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:041][479]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:066][480]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:090][481]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:114][482]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:137][483]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:159][484]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:181][485]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:203][486]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:225][487]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:248][488]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:270][489]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:270][489]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:293][490]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:293][490]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:317][491]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:317][491]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:342][492]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:342][492]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:365][493]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:365][493]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:387][494]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:387][494]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:415][495]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:415][495]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:438][496]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:438][496]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:460][497]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:460][497]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:484][498]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:484][498]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:506][499]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:507][499]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:529][500]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:529][500]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:552][501]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:552][501]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:574][502]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:574][502]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:597][503]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:597][503]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:619][504]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:619][504]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:643][505]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:643][505]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:665][506]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:665][506]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:689][507]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:689][507]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:711][508]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:711][508]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:734][509]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:734][509]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:758][510]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:758][510]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:783][511]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:783][511]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:808][512]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:808][512]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:830][513]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:852][514]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:872][515]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:896][516]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.55:919][517]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.56:244][531]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.56:244][531]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:267][532]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.56:267][532]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:289][533]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.56:289][533]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:311][534]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:311][534]LogBlueprintUserMessages: [MechChara9_486] wallruncollide
+[2016.05.26-00.51.56:359][536]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:380][537]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:403][538]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:426][539]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:450][540]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:474][541]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:497][542]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:520][543]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:544][544]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:568][545]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:592][546]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:614][547]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:637][548]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:659][549]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:684][550]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:707][551]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:732][552]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:755][553]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:780][554]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:804][555]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.56:989][563]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:012][564]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:034][565]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:058][566]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:080][567]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:102][568]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:126][569]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:148][570]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.51.57:148][570]LogBlueprintUserMessages: [MechChara_C_1000] leftOn
+[2016.05.26-00.51.57:149][570]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:171][571]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:194][572]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:217][573]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:236][574]LogBlueprintUserMessages: [MechChara10_928] wallruncollide
+[2016.05.26-00.51.57:237][574]LogBlueprintUserMessages: [MechChara_C_1000] LeftOff
+[2016.05.26-00.51.57:671][593]LogBlueprintUserMessages: [MechChara2] wallruncollide
+[2016.05.26-00.51.57:672][593]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.51.57:672][593]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.51.57:696][594]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.51.57:696][594]LogBlueprintUserMessages: [MechChara_5996] wallruncollide
+[2016.05.26-00.51.57:696][594]LogBlueprintUserMessages: [MechChara_C_1000] wallruncollide
+[2016.05.26-00.52.05:432][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.52.07:327][ 25]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.52.18:755][700]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.52.20:823][804]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 439/400 MB (ok in editor, bad on fixed memory platform)
+[2016.05.26-00.53.26:329][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.26-00.53.26:329][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.26-00.53.29:043][624]Cmd: QUIT_EDITOR
+[2016.05.26-00.53.29:177][624]LogExit: Preparing to exit.
+[2016.05.26-00.53.30:028][624]LogExit: Editor shut down
+[2016.05.26-00.53.30:029][624]LogExit: Transaction tracking system shut down
+[2016.05.26-00.53.30:216][624]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.26-00.53.30:216][624]LogExit: Object subsystem successfully closed.
+[2016.05.26-00.53.30:230][624]LogD3D11RHI: Shutdown
+[2016.05.26-00.53.30:230][624]LogD3D11RHI: CleanupD3DDevice
+[2016.05.26-00.53.30:407][624]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.26-00.53.30:509][624]LogDerivedDataCache: Shutdown
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module SuperSearch (202)
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module WidgetCarousel (201)
+[2016.05.26-00.53.30:510][624]LogModuleManager: Shutting down and abandoning module AddContentDialog (200)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module GameplayTags (199)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module EditorWidgets (198)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module CollectionManager (197)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module StatsViewer (196)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module FoliageEdit (195)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module LandscapeEditor (194)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module ActorPickerMode (193)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module GeometryMode (192)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module TextureAlignMode (191)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module BspMode (190)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module PlacementMode (189)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module AutomationWorker (188)
+[2016.05.26-00.53.30:512][624]LogModuleManager: Shutting down and abandoning module CharacterAI (187)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module SmartSnapping (186)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module ViewportSnapping (185)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module LogVisualizer (184)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (183)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module IntroTutorials (182)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (181)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (180)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (179)
+[2016.05.26-00.53.30:513][624]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (178)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (177)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (176)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (175)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module MergeActors (174)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module SizeMap (173)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module TreeMap (172)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module ReferenceViewer (171)
+[2016.05.26-00.53.31:177][624]LogModuleManager: Shutting down and abandoning module LocalizationService (170)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (169)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module HardwareTargeting (168)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (167)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module UndoHistory (166)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module UserFeedback (165)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module XmlParser (164)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module Blutility (163)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (162)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (161)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module InputBindingEditor (160)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (159)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module SettingsEditor (158)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module ProjectLauncher (157)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module SessionFrontend (156)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module ProfilerClient (155)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (154)
+[2016.05.26-00.53.31:178][624]LogModuleManager: Shutting down and abandoning module DeviceManager (153)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module AutomationController (152)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module AutomationWindow (151)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module Layers (150)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (149)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module DetailCustomizations (148)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module PackagesDialog (147)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module Persona (146)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module Kismet (145)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module GraphEditor (144)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module ClassViewer (143)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module Toolbox (142)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module ModuleUI (141)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module MovieSceneTools (140)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module OutputLog (139)
+[2016.05.26-00.53.31:208][624]LogModuleManager: Shutting down and abandoning module GammaUI (138)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module Documentation (137)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (136)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module AnalyticsET (135)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module Analytics (134)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module PortalServices (133)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module PortalRpc (132)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module MessagingRpc (131)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module AITestSuite (130)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module GameplayDebugger (129)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module AIModule (128)
+[2016.05.26-00.53.31:209][624]LogModuleManager: Shutting down and abandoning module ProfilerService (127)
+[2016.05.26-00.53.31:427][624]LogModuleManager: Shutting down and abandoning module TaskGraph (126)
+[2016.05.26-00.53.31:427][624]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.05.26-00.53.31:427][624]LogModuleManager: Shutting down and abandoning module WebBrowserWidget (124)
+[2016.05.26-00.53.31:427][624]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.26-00.53.31:428][624]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.26-00.53.31:429][624]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.26-00.53.31:430][624]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.26-00.53.31:430][624]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.26-00.53.31:431][624]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.26-00.53.32:661][624]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.26-00.53.32:663][624]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.26-00.53.32:663][624]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.26-00.53.32:763][624]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.26-00.53.32:764][624]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.26-00.53.32:766][624]LogDerivedDataCache: Shutdown
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.26-00.53.32:766][624]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.26-00.53.32:767][624]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.26-00.53.34:768][624]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.26-00.53.34:770][624]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.26-00.53.34:770][624]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.26-00.53.34:771][624]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.26-00.53.34:773][624]LogExit: Exiting.
+[2016.05.26-00.53.34:775][624]Log file closed, 05/25/16 20:53:34
